@@ -1,0 +1,2212 @@
+.contentPageWelcome {
+  background-color: #b7fbba;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+}
+.encabezado {
+  width: 100%;
+  height: 10vh;
+  background-color: #007bff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 19;
+}
+.mainContent{
+  overflow-y: hidden;
+}
+.resgistradoLogoFundaMostrar img {
+  width: 7vh;
+  height: 7vh;
+  object-fit: cover;
+  border-radius: 100vh;
+  position: absolute;
+  right: 2%;
+  top: 13%;
+}
+.RegistroBarraFundaLogo img {
+  width: 80vh;
+}
+.contentRegistroMostrarCompletoLogo {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.9);
+  top: 0;
+  left: 0;
+  display: grid;
+  place-items: center;
+}
+.RegisterCerrarFundacloseFotoCompleta {
+  position: absolute;
+  top: 9%;
+  left: 18%;
+  font-size: 180%;
+  color: #ffffff;
+}
+.inicioSesion button {
+  position: absolute;
+  right: 1%;
+  top: 2.5vh;
+  height: 5vh;
+}
+.inicioSesion button h5 {
+  align-items: center;
+  margin: 0;
+}
+.namePage {
+  text-align: center;
+  padding-top: 1vh;
+  color: #ffffff;
+}
+.namePage h3 {
+  margin: 0;
+  font-family: "Oleo Script", system-ui;
+  font-weight: 700;
+  font-style: normal;
+  color: #ffffff;
+}
+.namePage p {
+  margin: 0;
+  font-family: "Oleo Script", system-ui;
+  font-weight: 700;
+  font-style: normal;
+}
+.vision {
+  padding-top: 24vh;
+  text-align: center;
+  justify-content: center;
+  animation: fadeIn 2s forwards;
+  opacity: 0;
+  height: 27vh;
+  background-color: white;
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+.visionAneloH5 {
+  margin: 0;
+  font-family: "Oleo Script", system-ui;
+  font-weight: 900;
+  font-style: normal;
+  margin-top: -60px;
+  color: black;
+}
+.contenVision {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+.contenVision p {
+  width: 96%;
+  text-align: center;
+  color: black;
+  padding: 2%;
+  font-family: "Oleo Script", system-ui;
+  font-weight: 100;
+  font-style: normal;
+}
+.sesion1_1 {
+  padding-top: 7vh;
+  text-align: center;
+  justify-content: center;
+  animation: fadeIn 2s forwards;
+  opacity: 0;
+  height: 40vh;
+  background-color: white;
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+.sesion1_1 h3{
+  margin: 0;
+}
+.contentVisionReal {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+.contentVisionReal p {
+  width: 96%;
+  text-align: center;
+  color: black;
+  padding: 2%;
+  font-family: "Oleo Script", system-ui;
+  font-weight: 100;
+  font-style: normal;
+  margin: 0;
+}
+.sesion1_1 h3{
+  text-align: center;
+  color: black;
+  padding: 2%;
+  font-family: "Oleo Script", system-ui;
+  font-weight: 900;
+  font-style: normal;
+  margin: 0;
+}
+.sesion1_2 {
+  padding-top: 0;
+  text-align: center;
+  justify-content: center;
+  animation: fadeIn 2s forwards;
+  opacity: 0;
+  height: 40vh;
+  background-color: white;
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+.contentMisionReal {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+.contentMisionReal p {
+  width: 100%;
+  text-align: center;
+  color: black;
+  padding: 2%;
+  font-family: "Oleo Script", system-ui;
+  font-weight: 100;
+  font-style: normal;
+  margin: 0;
+}
+.sesion1_2 h3{
+  width: 96%;
+  text-align: center;
+  color: black;
+  padding: 2%;
+  font-family: "Oleo Script", system-ui;
+  font-weight: 900;
+  font-style: normal;
+  margin: 0;
+}
+.sesion1_3 {
+  padding-top: 7vh;
+  justify-content: center;
+  animation: fadeIn 2s forwards;
+  opacity: 0;
+  height: 53vh;
+  background-color: white;
+  width: 100%;
+}
+.sesion1_3 h3{
+  margin: 0;
+  text-align: center;
+  width: 100%;
+  font-family: "Oleo Script", system-ui;
+  font-weight: 900;
+  font-style: normal;
+  color: black;
+}
+.contentPrincipioReal {
+  width: 70%;
+  margin: 0;
+}
+.contentPrincipioReal li {
+  width: 100%;
+  color: black;
+  font-family: "Oleo Script", system-ui;
+  font-weight: 100;
+  font-style: normal;
+  margin-left: 10%;
+}
+.sesion1_4 {
+  padding-top: 4vh;
+  animation: fadeIn 2s forwards;
+  opacity: 0;
+  height: auto;
+  background-color: white;
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+.contentObjetivoGeneral {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+.sesion1_4 h3{
+  width: 100%;
+  text-align: center;
+  color: black;
+  font-family: "Oleo Script", system-ui;
+  font-weight: 900;
+  font-style: normal;
+}
+.contentObjetivoGeneral ol li {
+  width: 100%;
+  color: black;
+  font-family: "Oleo Script", system-ui;
+  font-weight: 100;
+  font-style: normal;
+}
+/* .fotosEmpresarios {
+  width: 100%;
+  height: 50vh;
+  margin-left: -7%;
+}
+.fotosEmpresarios img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+} */
+.sesion2 {
+  height: 100vh;
+  width: 100%;
+  background-color: white;
+  animation: fadeIn 2s forwards;
+  opacity: 1;
+  position: relative;
+  display: flex;
+}
+.fotoAyudando {
+  width: 50%;
+  height: auto;
+  top: 25vh;
+  left: 0%;
+  position: absolute;
+}
+.fotoAyudando img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.versiculos {
+  width: 40%;
+  height: 30vh;
+  position: absolute;
+  right: 8%;
+  top: 41%;
+  font-family: "Oleo Script", system-ui;
+  font-weight: 100;
+  font-style: normal;
+}
+.sesion3 {
+  width: 100%;
+  height: 100vh;
+  background-color: white;
+  position: relative;
+  animation: fadeIn 2s forwards;
+  opacity: 1;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.versiculo2 {
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+}
+.versiculo2 p {
+  margin: 0;
+  width: 50%;
+  position: absolute;
+  top: 60%;
+  font-family: "Oleo Script", system-ui;
+  font-weight: 100;
+  font-style: normal;
+}
+.videoPresentacion {
+  width: 100%;
+  height: auto;
+  display: grid;
+  place-items: center;
+}
+.quieroAyudar {
+  position: absolute;
+  bottom: 10%;
+  justify-content: center;
+  width: 100%;
+}
+.quieroAyudar h5 {
+  text-align: center;
+  font-family: "Oleo Script", system-ui;
+  font-weight: 100;
+  font-style: normal;
+  margin: 0;
+  padding-bottom: 1%;
+}
+.quieroAyudar button {
+  background-color: #28a745;
+  border-color: #28a745;
+  width: 30%;
+  right: 35%;
+  position: absolute;
+}
+.quieroAyudar button h4 {
+  margin: 0;
+  font-family: "Oleo Script", system-ui;
+  font-weight: 100;
+  font-style: normal;
+  color: #ffffff;
+}
+.popUpsesion {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  top: 0vh;
+  left: 0%;
+  background-color: #e6e6fa;
+  display: flex;
+  z-index: 14;
+}
+.card1 {
+  width: 360px;
+  height: 180px;
+  background-color: white;
+  border-radius: 5px 5px 230px 230px;
+  position: absolute;
+  left: 34%;
+  top: 49%;
+}
+.card1:hover {
+  width: 370px;
+  height: 190px;
+  left: 33.6%;
+  background-color: green;
+  transition: 2s;
+}
+.faGoogle {
+  font-size: 290%;
+  padding-left: 43%;
+  padding-top: 16%;
+}
+.card2 {
+  width: 360px;
+  height: 180px;
+  background-color: white;
+  border-radius: 230px 230px 5px 5px;
+  position: absolute;
+  left: 34%;
+  top: 18%;
+}
+.card2:hover {
+  width: 370px;
+  height: 190px;
+  left: 33.6%;
+  top: 17%;
+  transition: 2s;
+  background-color: green;
+}
+.faFacebook {
+  font-size: 290%;
+  padding-left: 44%;
+  padding-top: 20%;
+  color: blue;
+}
+.btnclose {
+  width: 5vh;
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 20%;
+  left: 25%;
+}
+.menuBurger {
+  font-size: 150%;
+  position: fixed;
+  left: 2%;
+  top: 2.5vh;
+  z-index: 29;
+  color: #ffffff;
+}
+.equisBurger {
+  font-size: 150%;
+  position: fixed;
+  left: 2%;
+  top: 2.5vh;
+  z-index: 29;
+  color: #ffffff;
+}
+.popUpMenuBurger {
+  position: fixed;
+  width: 45vh;
+  height: 100vh;
+  background-color: #007bff;
+  z-index: 20;
+  top: 0;
+  left: 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.LinkMenuSacar h5 {
+  color: black;
+  font-size: 100%;
+  margin: 0;
+  margin-top: 5%;
+  color: #ffffff;
+}
+.ReactRouterDom {
+  position: absolute;
+  width: 100%;
+  top: 15vh;
+  left: 7%;
+  z-index: 20;
+}
+.dataUser {
+  width: 47%;
+  height: auto;
+  background-color: #007bff;
+  margin-top: 30%;
+  margin-left: 30%;
+}
+.userName {
+  margin: 0;
+  color: #ffffff;
+  margin-top: -18px
+}
+.faEllipsisVertical {
+  position: absolute;
+  right: 3%;
+  background-color: #007bff;
+  border-color: #007bff;
+  padding: 8%;
+  color: #ffffff;
+  top: 7.5%;
+}
+.sesionCloseOCambiar {
+  position: absolute;
+  width: 22vh;
+  top: 10.8%;
+  left: 92%;
+  background-color: #007bff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.sesionCloseOCambiar button {
+  border-color: #007bff;
+  background-color: #007bff;
+  color: white;
+
+}
+.usuarioMenu img {
+  width: 8vh;
+  height: 8vh;
+  border-radius: 100vh;
+  position: absolute;
+  top: 8vh;
+  left: 3%;
+  z-index: 21;
+}
+.letraIniciodeSesion {
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  top: 5%;
+}
+.esteOEste {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 85%;
+  z-index: 10;
+}
+.inforFundaInicioDeSesion {
+  position: absolute;
+  left: 20%;
+  top: 30%;
+  width: 100%;
+}
+.zonaDePubliInicioDeSesion {
+  position: absolute;
+  left: -2%;
+  top: 46%;
+  width: 100%;
+}
+.mainHomeInicioDeSesion {
+  position: absolute;
+  top: 1%;
+  left: 5%;
+  width: 100%;
+}
+.curriculumInicioDeSesion {
+  position: absolute;
+  top: 16%;
+  left: -4%;
+  width: 100%;
+}
+.chatInicioSesion {
+  position: absolute;
+  top: 77.5%;
+  left: -29%;
+  width: 100%;
+}
+.galeriaInicioDeSesion {
+  position: absolute;
+  top: 61.5%;
+  left: -25%;
+  width: 100%;
+}
+.encabezadoGaleria {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+/* css Zona de publicacion */
+.contentUsuarioRegistradoMostrarServicio {
+  width: 100%;
+  height: 90vh;
+  position: absolute;
+  top: 10vh;
+  left: 0%;
+  overflow-y: auto;
+}
+.navegacionUsuarioAdm {
+  overflow-y: hidden;
+  width: 100%;
+  height: 100%;
+  padding-top: 12vh;
+  place-items: center;
+  display: grid;
+  background-color: #ffffff;
+}
+.navegacionAdmDeZonaPublicacion {
+  overflow-y: hidden;
+  width: 100%;
+  height: auto;
+  place-items: center;
+  display: grid;
+  background-color: #ffffff;
+}
+.contentRutasExpancioComunicado {
+  place-items: center;
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  padding-bottom: 2%;
+}
+.publicidad {
+  width: 30vh;
+  height: 40vh;
+  border-radius: 5px;
+  background-color: #f8f9fa;
+  margin-top: 5%;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.publicidad:hover {
+  opacity: 0.8;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.iconPublicatio {
+  font-size: 300%;
+  display: grid;
+  place-items: center;
+  width: 100%;
+  padding-top: 35%;
+  align-items: center;
+}
+.popUpSubirFhotoAndVideo {
+  width: 100%;
+  height: 100vh;
+  z-index: 59;
+  position: fixed;
+  overflow-y: auto;
+  top: 0%;
+  background-color: #f8f9fa;
+}
+.contenscrollSubirFhotoAndVideo {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  display: grid;
+  place-items: center;
+}
+.imagenaSubir {
+  width: 65vh;
+  height: 60vh;
+  object-fit: cover;
+  margin-top: 2%;
+}
+.imagenaSubir img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.menuDeImmagenaSubir {
+  width: 100%;
+  height: 10vh;
+  background-color: #007bff;
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  color: white;
+}
+.salirDeSubirFoto {
+  font-size: 180%;
+}
+.publicarFotoBtn {
+  width: 20vh;
+  height: 6vh;
+  align-items: center;
+}
+.publicarFotoBtn h5 {
+  margin: 0;
+}
+.escribirUnComentarioAlPublicarFoto {
+  width: 70%;
+  height: 10vh;
+  border-radius: 5px;
+  margin-top: 10%;
+}
+.cajaSubirFotoyVideos {
+  display: flex;
+  gap: 5%;
+  width: 80%;
+  align-items: center;
+}
+.closePublicacion {
+  position: absolute;
+  width: 50vh;
+  background-color: #007bff;
+  z-index: 298;
+  border-radius: 5px;
+  top: 45%;
+  left: 39%;
+  text-align: center;
+  color: white;
+}
+.contentMainHome {
+  width: 100%;
+  background-color: #ffffff;
+}
+.closePublicacionBtnCentrado {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 10%;
+}
+.closePublicacionBtnCentrado button {
+  width: 30%;
+}
+/* zona Publicacion Color anuncios css  */
+
+.contentAnunciosPublicidadColor {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background-color: #e3f2fd;
+  top: 0;
+  left: 0;
+  z-index: 30;
+}
+
+.anuncioAdmin {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.anuncioImportanteColorFavorit {
+  resize: none;
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: center;
+  width: 50vh;
+  height: 50vh;
+}
+
+.colorPicker {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.colorPicker button {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+/* aca esta arregal */
+.btnColorPicker {
+  margin-top: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+.btnColorPicker:disabled {
+  background-color: rgb(255, 193, 7);
+  cursor: not-allowed;
+}
+.iconSalirPublicadorColor {
+  font-size: 180%;
+  top: 2%;
+  left: 2%;
+  position: absolute;
+}
+.subirAnuncio {
+  text-align: center;
+  margin: 0;
+  margin-top: 1.5%;
+  font-family: "Oleo Script", system-ui;
+  font-size: 160%;
+}
+.btnPublicarAnuncioColor {
+  position: absolute;
+  top: 2%;
+  right: 3%;
+  background-color: #007bff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* mainHome css  */
+.cartasPublicaciones {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  object-fit: cover;
+}
+.cartasPublicaciones img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.cartasContenExterior {
+  width: 80vh;
+  display: grid;
+  gap: 20px;
+  place-items: center;
+}
+.gestionamientoCarta {
+  background-color: #f8f9fa;
+  border-radius: 5px;
+  display: grid;
+  place-items: center;
+  position: relative;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  width: 98%;
+}
+.cajaContenSubidaAdmin {
+  align-items: center;
+  display: flex;
+  padding-left: 2%;
+  padding-top: 4%;
+  justify-content: left;
+  width: 100%;
+}
+.adminFundaAyudaSubeFotoNombre {
+  margin: 0;
+  color: black;
+  width: 70%;
+}
+.comment {
+  width: 410px;
+  height: auto;
+  font-size: 100%;
+  background-color: green;
+}
+.comment p {
+  width: 100%;
+}
+.adminSubePublicacionFoto {
+  width: 10vh;
+  height: 10vh;
+  border-radius: 100px;
+}
+.adminSubePublicacionFoto img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 100px;
+}
+.closeFotoCompleta {
+  font-size: 180%;
+  position: absolute;
+  top: 3%;
+  left: 3%;
+  color: white;
+}
+.mostrarLogoCompleto {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  z-index: 29;
+  left: 0;
+  top: 0;
+  background: rgba(0, 0, 0, 0.9);
+  place-items: center;
+  display: grid;
+}
+.mostrarImgLogoConEfectoGrande img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.commentPubliAdmin {
+  width: 100%;
+  height: auto;
+  overflow-y: auto;
+  color: black;
+}
+.cartaInformacionAdminPubli {
+  width: 100%;
+}
+.carruselDeCards {
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  overflow-y: hidden;
+  background-color: #f8f9fa;
+}
+.manejarCarrusel {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+.definicionContent {
+  width: 100%;
+  position: relative;
+  display: grid;
+  place-items: center;
+  background-color: white;
+}
+.heartReaccion {
+  font-size: 180%;
+}
+.commentReaccion {
+  font-size: 180%;
+}
+.shartReaccion {
+  font-size: 180%;
+  color: gray;
+}
+.cantidadMeGustas {
+  margin: 0;
+  font-size: 45%;
+  text-align: center;
+}
+.reacciones {
+  display: flex;
+  justify-content: space-around;
+}
+.black {
+  color: gray;
+}
+.liked {
+  color: red;
+}
+
+/* chat css  */
+
+.contentChat {
+  width: 100%;
+}
+.fotoDelAbministrador img {
+  width: 10vh;
+  height: 10vh;
+  border-radius: 100px;
+  margin-left: 3%;
+}
+.fotoDelosUsuarios img {
+  width: 7vh;
+  height: 7vh;
+  border-radius: 100px;
+  margin-left: 25%;
+  display: flex;
+  align-items: center;
+}
+.chatDelAdministrador h5 {
+  margin: 0;
+}
+.popChatDelAdmin {
+  position: absolute;
+  top: 0;
+  left: 32%;
+  background-color: #e3f2fd;
+  width: 66%;
+  height: 100vh;
+}
+.conversacionCliente {
+  margin-top: 10vh;
+}
+.salirDePopUpChat {
+  font-size: 150%;
+  margin-left: 5%;
+}
+.barraChat {
+  background-color: #007bff;
+  width: 100%;
+  height: 10vh;
+  align-items: center;
+  display: flex;
+  color: white;
+}
+.clienteHablaChat {
+  width: 6vh;
+  height: 6vh;
+  border-radius: 55px;
+  background-color: #18cf21;
+  margin-left: 3%;
+}
+.nameClienteHablar {
+  margin: 0;
+  margin-left: 4%;
+  font-size: 100%;
+}
+.clienteReflejadoEnScroll {
+  width: 100%;
+  height: 70vh;
+  background-color: #e3f2fd;
+  overflow-y: auto;
+}
+.scrollChatearCoversation {
+  width: 100%;
+  height: auto;
+}
+.mensajeEnviado {
+  background-color: #d4edda;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 10px;
+  max-width: 60%;
+  margin-left: 35%;
+  color: #212529;
+}
+
+.mensajeRecibido {
+  align-self: flex-start;
+  background-color: #e0e0e0;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 10px;
+  max-width: 60%;
+  color: #212529;
+}
+
+.escritor {
+  word-break: break-word;
+}
+.nameScrollHablar {
+  margin: 0;
+  text-align: center;
+  margin-top: 29%;
+  font-size: 120%;
+}
+.contentChatear {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 10vh;
+  background-color: #007bff;
+  align-items: center;
+  display: flex;
+}
+.chatear {
+  position: fixed;
+  justify-content: center;
+  display: flex;
+  width: 66%;
+  align-items: center;
+  gap: 17%;
+}
+.newMessage {
+  width: 70%;
+  height: 5vh;
+  border-radius: 25px;
+  border: 1px solid #ced4da;
+}
+.newMessage:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+.Enviar {
+  font-size: 180%;
+  color: white;
+}
+.contentChatPublicidad {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 10px;
+  background-color: #e3f2fd;
+  height: 85vh;
+  width: 30%;
+  padding-top: 15vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9;
+}
+.chatDelAdministrador {
+  padding: 10px;
+  width: 90%;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  color: white;
+  background-color: #007bff;
+}
+.datosChatUsuario {
+  display: flex;
+  align-items: center;
+  gap: 10%;
+}
+.dataAdminChat {
+  display: flex;
+  align-items: center;
+  gap: 10%;
+}
+.chatDelAdministrador:hover {
+  opacity: 0.7;
+}
+
+/* Curriculum.css */
+.subirPublicacionCurrilum {
+  width: 100%;
+  height: 11vh;
+  position: absolute;
+  top: 10vh;
+  left: 0;
+  align-items: center;
+  display: grid;
+  z-index: 9;
+}
+.subirPDFCurriculumBtn button {
+  position: absolute;
+  right: 2%;
+  top: 1vh;
+  width: 18vh;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  background-color: #007bff;
+}
+.SubirPDFMOstrar {
+  width: 40vh;
+  height: 8vh;
+  border-radius: 99px;
+  margin-left: 1%;
+}
+.SubirPDFMOstrar button {
+  width: 65%;
+  height: 100%;
+  background-color: #f8f9fa;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  color: black;
+}
+.ContentpdfcuRRiculum {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  width: 98%;
+  position: absolute;
+  top: 0;
+  left: 1%;
+  padding-top: 34vh;
+  background-color: white;
+}
+.tituloCurriculum {
+  position: absolute;
+  top: 23vh;
+  left: 2%;
+  color: black;
+}
+.cargadorSeñal {
+  position: fixed;
+  top: 50%;
+  left: 44%;
+}
+.pdfCard {
+  border-radius: 8px;
+  padding: 16px;
+  text-align: center;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f8f9fa;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  color: black;
+}
+.pdfIcon {
+  margin-bottom: 8px;
+}
+.pdfActions a {
+  display: block;
+  margin: 8px 0;
+}
+
+.pdfActions a,
+.pdfActions svg {
+  cursor: pointer;
+}
+.subirPDFCurriculumBtn {
+  width: 100%;
+  height: 90vh;
+  background-color: #ffffff;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+.comentContentPubli {
+  width: 50%;
+  height: auto;
+}
+.comentContentPubli textarea {
+  width: 100%;
+  height: auto;
+  margin-left: 50%;
+  margin-top: 13%;
+}
+.pdfPopUPComment {
+  font-size: 480%;
+  width: 100%;
+  margin-top: 5%;
+}
+.linealSeparador {
+  height: 1px;
+  width: 25vh;
+  background-color: black;
+  margin-bottom: 8%;
+}
+.tipoDeTrabajo {
+  margin: 0;
+  margin-bottom: 20%;
+}
+.popUpBasura {
+  position: fixed;
+  width: 50%;
+  height: 30vh;
+  background-color: #007bff;
+  border-radius: 5px;
+  top: 35%;
+  left: 25%;
+  color: white;
+}
+.siNoBasura {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: 10%;
+  margin-top: 8%;
+}
+.btnNo {
+  width: 15%;
+}
+.btnSi {
+  width: 15%;
+}
+
+/* galeria css  */
+.galeriaItem {
+  width: 26vh;
+  height: 40vh;
+  padding-top: 6%;
+}
+.galeriaItem img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.galeriaGrid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  position: absolute;
+  top: 80px;
+  left: 0;
+}
+.mostrarCompletaFotoGaleria {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1001;
+  flex-direction: column;
+}
+.closeIcon {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: white;
+  cursor: pointer;
+  font-size: 24px;
+}
+.prevIcon,
+.nextIcon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: white;
+  cursor: pointer;
+  font-size: 48px;
+  z-index: 1002;
+}
+.prevIcon {
+  left: 20px;
+}
+.nextIcon {
+  right: 20px;
+}
+.fullImage {
+  max-width: 90%;
+  max-height: 90%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.heartReaccion.liked {
+  color: red;
+}
+
+/* informacion fundacion css  */
+.numero1 {
+  display: flex;
+  align-items: center;
+  gap: 3%;
+}
+.numero2 {
+  display: flex;
+  align-items: center;
+  gap: 3%;
+}
+.correoElectronico {
+  display: flex;
+  align-items: center;
+  gap: 3%;
+}
+.nit {
+  display: flex;
+  align-items: center;
+  gap: 3%;
+}
+.contentInnformacionFundaPublicidad {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 90%;
+  padding-left: 10%;
+  padding-top: 10vh;
+}
+.googleMap {
+  margin-bottom: 5%;
+}
+.iconWhatsappInfor {
+  font-size: 180%;
+  color: green;
+}
+.fatAtIconInforCorreo {
+  font-size: 180%;
+  color: red;
+}
+.NITInfor {
+  font-size: 130%;
+  color: black;
+}
+.subtitulosDeInfor {
+  font-size: 140%;
+  margin: 0;
+  margin-top: 3%;
+  font-family: "Oleo Script", system-ui;
+}
+.cantidadFundadores {
+  list-style: none;
+}
+.cantidadFundadores li b {
+  color: black;
+  font-size: 120%;
+}
+.cantidadFundadores li {
+  font-family: "Oleo Script", system-ui;
+}
+
+/* anuncio biblicos css  */
+
+.anuncio {
+  background-color: #f8f9fa;
+  border-radius: 5px;
+  display: grid;
+  place-items: center;
+  position: relative;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  width: 50vh;
+  height: 50vh;
+}
+.contentCardExterior {
+  width: 95%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  place-items: center;
+  overflow-x: hidden;
+  padding-top: 12vh;
+  height: auto;
+}
+.contentAnuncioBiblicos {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.navegacionUsuarioAdmAnuncio {
+  width: 95%;
+  height: 100%;
+}
+.anuncioBiblicoFrase {
+  width: 100%;
+  height: 75%;
+  position: absolute;
+  bottom: 0;
+}
+.cajaContenSubidaAdminAnuncioBiblicos {
+  display: flex;
+  align-items: center;
+  gap: 5%;
+  margin: 0;
+  height: 10vh;
+  position: absolute;
+  top: 1%;
+}
+.adminSubePublicacionFotoAnuncioBiblicos {
+  width: 10vh;
+  height: 10vh;
+}
+.adminSubePublicacionFotoAnuncioBiblicos img {
+  width: auto;
+  height: 100%;
+  border-radius: 200px;
+}
+.fraseAnuncioBriblicosVer {
+  text-align: center;
+  height: 36vh;
+  margin: 0;
+  display: grid;
+  align-items: center;
+}
+.popupAnuncio {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.9);
+  z-index: 19;
+}
+.popupContent {
+  max-width: 400px;
+  width: 90%;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  position: relative;
+  display: grid;
+  text-align: center;
+  align-items: center;
+}
+.popupCloseIcon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  color: #333;
+}
+.textAnuncioPopUp {
+  margin: 0;
+  height: 81vh;
+  overflow-y: auto;
+}
+.apoyoScrollDerrame {
+  overflow-y: hidden;
+}
+.mostrarImgLogoConEfectoGrande{
+  width: 80vh;
+}
+/* donacion css  */
+
+.contentDonacionFormu {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding-top: 13%;
+}
+.contentDonacionScroll {
+  overflow-y: hidden;
+  width: 100%;
+  height: 100%;
+  padding-top: 4vh;
+  place-items: center;
+  display: grid;
+  background-color: #ffffff;
+}
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.popupContent {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 500px;
+  width: 100%;
+}
+
+.popupContent h4 {
+  margin-top: 0;
+}
+
+.popupContent p {
+  margin: 10px 0;
+}
+
+.popupCloseIcon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"],
+form input[type="number"],
+form input[list],
+form input[type="checkbox"],
+form button {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  color: black;
+}
+
+form input[type="checkbox"] {
+  width: auto;
+  margin-right: 10px;
+}
+
+form button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+form button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+form button:hover:not(:disabled) {
+  background-color: #218838;
+}
+
+form div {
+  display: flex;
+  align-items: center;
+}
+
+form p {
+  margin: 0;
+  color: #777;
+}
+.aviso {
+  width: 247px;
+  text-align: center;
+  font-size: 76%;
+  font-weight: 700;
+}
+
+/* recuperacion de los datos del formulario de donacion css  */
+.popUpCuadroFromBox{
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: white;
+  width: 100%;
+  height: 100vh;
+  z-index: 30;
+}
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  padding: 20px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+  border-radius: 8px;
+}
+
+.popupContent {
+  position: relative;
+}
+
+.popupCloseIcon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  font-size: 24px;
+}
+.donationItem {
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #f8f9fa;
+  background-color: #f8f9fa;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  width: 30vh;
+  height: 5vh;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.iconSalirfaArrowLeft{
+  font-size: 180%;
+  margin-top: 2%;
+  margin-left: 1%;
+  position: absolute;
+}
+.contentScrollFromBox{
+  width: 100%;
+  height: 100vh;
+  overflow-y: auto;
+  background-color: white;
+  padding-top: 6%;
+  padding-left: 5%;
+}
+.listIcon {
+  margin-right: 10px;
+}
+.closePublicacion {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  padding: 20px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  z-index: 33;
+  border-radius: 8px;
+  text-align: center;
+}
+.closePublicacionBtnCentrado {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+.closePublicacionBtnCentrado button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+@media screen and (max-width: 768px) {
+  .videoPresentacion {
+    width: 100%;
+    height: auto;
+    display: grid;
+    place-items: center;
+  }
+  .videoPresentacionPrincipal {
+    width: 100%;
+    margin-top: 18%;
+  }
+  .vision {
+    padding-top: 11vh;
+    text-align: center;
+    justify-content: center;
+    animation: fadeIn 2s forwards;
+    opacity: 0;
+    height: 42vh;
+    background-color: white;
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+  /* .fotosEmpresarios {
+    width: 100%;
+    height: 22vh;
+    margin-left: -8%;
+  }
+  .fotosEmpresarios img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  } */
+  .contenVision p {
+    width: 96%;
+    text-align: center;
+    color: black;
+    padding: 2%;
+    font-family: "Oleo Script", system-ui;
+    font-weight: 100;
+    margin: 0;
+    font-style: normal;
+  }
+  .sesion1_1 {
+    padding-top: 0;
+    text-align: center;
+    justify-content: center;
+    animation: fadeIn 2s forwards;
+    opacity: 0;
+    height: 40vh;
+    background-color: white;
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+  .sesion1_1 h3{
+    width: 100%;
+    text-align: center;
+    color: black;
+    padding: 2%;
+    font-family: "Oleo Script", system-ui;
+    font-weight: 900;
+    font-style: normal;
+  }
+  .sesion1_4 {
+    margin-top: -20%;
+    animation: fadeIn 2s forwards;
+    opacity: 0;
+    height: auto;
+    background-color: white;
+    width: 100%;
+    display: grid;
+    place-items: center;
+  }
+  .contentObjetivoGeneral ol li{
+    width: 90%;
+    color: black;
+    font-family: "Oleo Script", system-ui;
+    font-weight: 100;
+    font-style: normal;
+  }
+  .visionAneloH5 {
+    margin: 0;
+    font-family: "Oleo Script", system-ui;
+    font-weight: 900;
+    font-style: normal;
+    margin-top: 6px;
+  }
+  .sesion2 {
+    height: 40vh;
+    width: 100%;
+    background-color: white;
+    animation: fadeIn 2s forwards;
+    opacity: 1;
+    position: relative;
+    display: grid;
+    place-items: center;
+  }
+  .contentPrincipioReal {
+    width: 90%;
+    margin: 0;
+  }
+  .contentPrincipioReal li {
+    width: 90%;
+    color: black;
+    font-family: "Oleo Script", system-ui;
+    font-weight: 100;
+    font-style: normal;
+    margin-left: 0;
+  }
+  .fotoAyudando {
+    width: 92%;
+    height: auto;
+    top: 3vh;
+    left: 0%;
+    position: absolute;
+  }
+  .mostrarImgLogoConEfectoGrande{
+    width: 80%;
+    height: 40%;
+    object-fit: cover;
+  }
+  .versiculo2 p {
+    margin: 0;
+    width: 90%;
+    position: absolute;
+    top: 60%;
+    font-family: "Oleo Script", system-ui;
+    font-weight: 100;
+    font-style: normal;
+    color: black;
+  }
+  .quieroAyudar h5 {
+    text-align: center;
+    font-family: "Oleo Script", system-ui;
+    font-weight: 100;
+    font-style: normal;
+    margin: 0;
+    color: black;
+    padding-bottom: 1%;
+    width: 90%;
+    margin-left: 5%;
+  }
+  .quieroAyudar button {
+    background-color: #28a745;
+    border-color: #28a745;
+    width: 70%;
+    left: 15%;
+    position: absolute;
+  }
+  .namePage h3 {
+    margin: 0;
+    font-family: "Oleo Script", system-ui;
+    font-weight: 700;
+    font-style: normal;
+    color: #ffffff;
+    font-size: 76%;
+    margin-top: 4%;
+  }
+  .namePage p {
+    margin: 0;
+    font-family: "Oleo Script", system-ui;
+    font-weight: 700;
+    font-style: normal;
+    font-size: x-small;
+  }
+  .resgistradoLogoFundaMostrar img {
+    width: 5vh;
+    height: 5vh;
+    object-fit: cover;
+    border-radius: 100vh;
+    position: absolute;
+    right: 2%;
+    top: 24%;
+  }
+  .menuBurger {
+    font-size: 173%;
+    position: fixed;
+    left: 2%;
+    top: 2.5vh;
+    z-index: 29;
+    color: #ffffff;
+  }
+  .popUpMenuBurger {
+    position: fixed;
+    width: 35vh;
+    height: 100vh;
+    background-color: #007bff;
+    z-index: 20;
+    top: 0;
+    left: 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  .cartasContenExterior {
+    width: 100%;
+    display: grid;
+    gap: 20px;
+    place-items: center;
+  }
+  .cajaContenSubidaAdmin {
+    align-items: center;
+    display: flex;
+    padding-left: 2%;
+    padding-top: 4%;
+    justify-content: center;
+    width: 100%;
+    gap: 5%;
+  }
+  .contentCardExterior {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    place-items: center;
+    overflow-x: hidden;
+    margin-top: 0;
+    height: auto;
+  }
+  .anuncio {
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    display: grid;
+    place-items: center;
+    position: relative;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 96%;
+    height: 50vh;
+  }
+  .RegistroBarraFundaLogo img {
+    width: 100%;
+  }
+  .RegisterCerrarFundacloseFotoCompleta {
+    position: absolute;
+    top: 4%;
+    font-size: 180%;
+    color: white;
+    left: 88%;
+  }
+  .pdfCard {
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+    width: 125px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f8f9fa;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  .linealSeparador {
+    height: 1px;
+    width: 15vh;
+    background-color: black;
+    margin-bottom: 8%;
+  }
+  .ContentpdfcuRRiculum {
+    display: grid;
+    flex-wrap: wrap;
+    gap: 16px;
+    width: 98%;
+    position: absolute;
+    top: 0;
+    left: 1%;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    padding-top: 34vh;
+    place-items: center;
+  }
+  .comentContentPubli textarea {
+    width: 100%;
+    height: auto;
+    margin-left: 16%;
+    margin-top: 33%;
+    background-color: white;
+    color: black;
+  }
+  .comentContentPubli {
+    width: 70%;
+    height: auto;
+  }
+  .cargadorSeñal {
+    position: fixed;
+    top: 50%;
+    left: 26%;
+  }
+  .publicidad {
+    width: 30vh;
+    height: 20vh;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+    margin-top: 5%;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  .iconPublicatio {
+    font-size: 300%;
+    width: 100%;
+    padding-top: 35%;
+    margin-top: -26%;
+  }
+  .manejarImagenSubir {
+    width: 40vh;
+    height: 50vh;
+  }
+  .imagenaSubir {
+    width: auto;
+    object-fit: cover;
+    margin-top: 2%;
+  }
+  .escribirUnComentarioAlPublicarFoto {
+    width: 95%;
+    height: 10vh;
+    border-radius: 5px;
+    margin-top: 27%;
+    background-color: white;
+  }
+  .colorPicker {
+    margin-top: 10px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(49px, 1fr));
+    width: 100%;
+  }
+  .anuncioImportanteColorFavorit {
+    font-size: 16px;
+    height: 50vh;
+    width: 100%;
+    resize: none;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  .subirAnuncio {
+    text-align: center;
+    margin: 0;
+    margin-top: 3.5%;
+    font-family: "Oleo Script", system-ui;
+    font-size: 130%;
+  }
+  .btnPublicarAnuncioColor {
+    position: absolute;
+    top: 1%;
+    right: 1%;
+    /* background-color: #cbd5df; */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  .publicarFotoBtn {
+    width: 20vh;
+    height: 6vh;
+    background-color: white;
+    color: #007bff;
+  }
+  .salirDeSubirFoto {
+    font-size: 180%;
+    margin-left: 6%;
+  }
+  .galeriaGrid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    position: absolute;
+    top: 80px;
+    left: 0;
+    place-items: center;
+  }
+  .galeriaItem {
+    width: 90%;
+    height: 40vh;
+    padding-top: 6%;
+  }
+  .nextIcon {
+    right: 4px;
+    color: white;
+  }
+  .prevIcon {
+    color: white;
+    left: 3px;
+  }
+  .popChatDelAdmin {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #e3f2fd;
+    width: 100%;
+    height: 100%;
+  }
+  .conversacionCliente {
+    z-index: 99;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: -10vh;
+  }
+  .contentChatPublicidad {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 10px;
+    background-color: #e3f2fd;
+    height: 83vh;
+    width: 100%;
+    padding-top: 15vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9;
+  }
+  .chatDelAdministrador {
+    padding: 10px;
+    width: 90%;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    color: white;
+    background-color: #007bff;
+    margin-left: 2%;
+  }
+  .clienteReflejadoEnScroll {
+    width: 100%;
+    height: 90vh;
+    background-color: #e3f2fd;
+    overflow-y: auto;
+  }
+  .chatear {
+    position: fixed;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 7%;
+  }
+  .sesionCloseOCambiar {
+    position: absolute;
+    width: 20vh;
+    top: 14.8%;
+    left: 78%;
+    background-color: #007bff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  .inicioSesion button {
+    position: absolute;
+    right: 1%;
+    top: 4.5vh;
+    height: 5vh;
+  }
+  .popUpsesion {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0vh;
+    left: 0%;
+    background-color: #e6e6fa;
+    display: flex;
+    z-index: 14;
+  }
+  .card2 {
+    width: 300px;
+    height: 160px;
+    background-color: white;
+    border-radius: 230px 230px 5px 5px;
+    position: absolute;
+    top: 18%;
+    left: 13%;
+  }
+  .card1 {
+    width: 300px;
+    height: 160px;
+    background-color: white;
+    border-radius: 5px 5px 230px 230px;
+    position: absolute;
+    left: 13%;
+    top: 39vh;
+  }
+  .card2:hover {
+    display: none;
+  }
+  .card1:hover {
+    display: none;
+  }
+  .newMessage {
+    width: 70%;
+    height: 5vh;
+    border-radius: 25px;
+    border: 1px solid #ced4da;
+    position: fixed;
+    bottom: 2%;
+    left: 3%;
+    background-color: white;
+    color: black;
+  }
+  .Enviar {
+    font-size: 180%;
+    color: white;
+    position: fixed;
+    right: 8%;
+    color: white;
+    bottom: 2%;
+  }
+  .contentChatear {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 10vh;
+    background-color: #007bff;
+    align-items: center;
+    display: flex;
+  }
+  .contentDonacionFormu {
+    padding: 10px;
+  }
+
+  .popupContent {
+    padding: 10px;
+  }
+
+  .form input[type="text"],
+  .form input[type="email"],
+  .form input[type="tel"],
+  .form input[type="number"],
+  .form input[list],
+  .form input[type="checkbox"],
+  .form button {
+    font-size: 14px;
+    background-color: white;
+  }
+  .encabezado {
+    width: 100%;
+    height: 10vh;
+    background-color: #007bff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 19;
+  }
+  .contentScrollFromBox {
+    padding-top: 15%;
+}
+.mainContent{
+  overflow-x: hidden;
+  overflow-y: none;
+}
+.userName {
+  margin: 0;
+  color: #ffffff;
+}
+.popUpBasura {
+  position: fixed;
+  width: 80%;
+  height: 20vh;
+  background-color: #007bff;
+  border-radius: 5px;
+  top: 35%;
+  left: 10%;
+  color: white;
+}
+.btnNo {
+  width: 23%;
+  background-color: white;
+  color: #007bff;
+}
+.btnSi {
+  width: 23%;
+  background-color: white;
+  color: #007bff;
+}
+}
