@@ -139,7 +139,11 @@ export default function Curriculum() {
                     <header className="encabezado">
                         <div className="namePage">
                             <h3>FUNDACION CENTRO MISIONERO EMPRESARIAL</h3>
+<<<<<<< HEAD
+                            {/* <p>Manos que Ayudan</p> */}
+=======
                             <p>Manos que Ayudan</p>
+>>>>>>> 7871276d71fdc7adb73963344f7f29ef56fc835a
                         </div>
                         <div onClick={mostrarLogoCompleto} className="resgistradoLogoFundaMostrar">
                             <img src={logoFundacion} alt="Logo Fundacion" />
@@ -186,8 +190,13 @@ export default function Curriculum() {
                                     <h6 className="tipoDeTrabajo">{comentario}</h6>
                                     <div className="pdfIcon">
                                         <a href={url} target="_blank" rel="noopener noreferrer">
+<<<<<<< HEAD
+                                            <FontAwesomeIcon style={{color:'black'}} icon={faFilePdf} size="3x" />
+                                            <div style={{color:'black'}}><FontAwesomeIcon style={{color:'black'}} icon={faStar} /> Calificar Trabajo</div>
+=======
                                             <FontAwesomeIcon icon={faFilePdf} size="3x" />
                                             <div><FontAwesomeIcon icon={faStar} /> Calificar Trabajo</div>
+>>>>>>> 7871276d71fdc7adb73963344f7f29ef56fc835a
                                         </a>
                                     </div>
 
@@ -195,7 +204,11 @@ export default function Curriculum() {
                                         {isAdmin && (
                                             <div>
                                                 <div className="linealSeparador"></div>
+<<<<<<< HEAD
+                                                <FontAwesomeIcon style={{color:'red'}} icon={faTrash} onClick={() => mostrarPopUpBasura(index)} />
+=======
                                                 <FontAwesomeIcon icon={faTrash} onClick={() => mostrarPopUpBasura(index)} />
+>>>>>>> 7871276d71fdc7adb73963344f7f29ef56fc835a
                                             </div>
                                         )}
                                         {popUpBasuraPDF === index && (

@@ -155,7 +155,11 @@ export default function MainHomen() {
                     <header className="encabezado">
                         <div className="namePage">
                             <h3>FUNDACION CENTRO MISIONERO EMPRESARIAL</h3>
+<<<<<<< HEAD
+                            {/* <p>Manos que Ayudan</p> */}
+=======
                             <p>Manos que Ayudan</p>
+>>>>>>> 7871276d71fdc7adb73963344f7f29ef56fc835a
                         </div>
                         <div onClick={abrirlogoPersonaRegistradamotrarCompleto} className="resgistradoLogoFundaMostrar">
                             <img src={logoFundacion} />
@@ -199,7 +203,11 @@ export default function MainHomen() {
                                         <div
                                             className="heartReaccion"
                                             onClick={() => handleLikeClick(sacar.id, sacar.url, auth.currentUser.uid)}
+<<<<<<< HEAD
+                                            style={{ color: userLikes.includes(sacar.url) ? 'red' : 'white' }}
+=======
                                             style={{ color: userLikes.includes(sacar.url) ? 'red' : 'gray' }}
+>>>>>>> 7871276d71fdc7adb73963344f7f29ef56fc835a
                                         >
                                             <FontAwesomeIcon icon={faHeart} />
                                             <h6 className="cantidadMeGustas">{sacar.likesCount}</h6>

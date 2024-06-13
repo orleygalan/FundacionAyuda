@@ -11,9 +11,16 @@
   position: fixed;
   top: 0;
   left: 0;
+<<<<<<< HEAD
+  border-bottom: 1px solid white;
+  z-index: 19;
+}
+.mainContent {
+=======
   z-index: 19;
 }
 .mainContent{
+>>>>>>> 7871276d71fdc7adb73963344f7f29ef56fc835a
   overflow-y: hidden;
 }
 .resgistradoLogoFundaMostrar img {
@@ -62,6 +69,391 @@
 }
 .namePage h3 {
   margin: 0;
+<<<<<<< HEAD
+  font-family: "Yeseva One", serif;
+  font-weight: 500;
+  font-style: normal;
+  color: #ffffff;
+  margin-top: 1.5vh;
+}
+.namePage p {
+  margin: 0;
+  font-family: "Yeseva One", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* css fuente para el tipo de letra */
+.yeseva-one-regular {
+  font-family: "Yeseva One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.dm-serif-display-regular {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*  */
+
+/* vista previa  */
+.contenedorVistaPrevia {
+  width: 96%;
+  height: auto;
+  margin-left: 2%;
+}
+.forma1 {
+  width: 100%;
+  height: auto;
+  margin-top: 12vh;
+  background-color: #007bff;
+  border-radius: 20px 20px 0 0;
+}
+.btnsInfor {
+  display: flex;
+  gap: 4%;
+  margin-top: 4%;
+  padding-bottom: 16%;
+}
+.btnsInfor .btnUno {
+  background-color: #085ec5;
+  color: white;
+}
+.btnsInfor .btnDos {
+  background-color: #007bff;
+  border-color: white;
+  color: white;
+  border: 1px solid #ced4da;
+}
+.forma1Texto1 {
+  font-family: "Yeseva One", serif;
+  font-weight: 700;
+  font-style: normal;
+  padding-top: 14%;
+  width: 70%;
+  margin: 0;
+  color: white;
+  padding-left: 3%;
+}
+.forma1Texto1 h1 {
+  font-family: "Yeseva One", serif;
+  font-weight: 700;
+  font-style: normal;
+  width: 80%;
+  margin: 0;
+  color: white;
+  margin-bottom: 3%;
+}
+.forma1Texto1 p {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-style: normal;
+  width: 50%;
+  margin: 0;
+  color: white;
+}
+.forma2 {
+  width: 100%;
+  height: auto;
+  padding-top: 10%;
+  display: flex;
+}
+.forma2Sector1 {
+  width: 40%;
+  height: 100%;
+}
+.forma2Sector2 {
+  width: 60%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+}
+.forma2Sector1 h1 {
+  font-family: "Yeseva One", serif;
+  font-weight: 700;
+  font-style: normal;
+  margin: 0;
+  color: black;
+}
+.forma2Sector1 p {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.cuadroObjetivo {
+  width: 90%;
+  height: auto;
+  background-color: #b8e3ff;
+  margin-bottom: 5%;
+  border-radius: 8px;
+}
+.cuadroObjetivo h3 {
+  font-family: "Yeseva One", serif;
+  font-weight: 900;
+  font-style: normal;
+  margin: 0;
+  padding-left: 5%;
+  padding-top: 5%;
+}
+.cuadroObjetivo p {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+  padding: 5%;
+}
+.cuadroPrincipios {
+  width: 90%;
+  height: auto;
+  background-color: #b8e3ff;
+  border-radius: 8px;
+  margin-bottom: 5%;
+}
+.cuadroPrincipios h3 {
+  font-family: "Yeseva One", serif;
+  font-weight: 900;
+  font-style: normal;
+  margin: 0;
+  padding-left: 5%;
+  padding-top: 5%;
+}
+.cuadroPrincipios ul li {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+}
+.cuadroGeneral {
+  width: 90%;
+  height: auto;
+  background-color: #b8e3ff;
+  border-radius: 8px;
+  margin-bottom: 5%;
+}
+.cuadroGeneral h3 {
+  font-family: "Yeseva One", serif;
+  font-weight: 900;
+  font-style: normal;
+  margin: 0;
+  padding-left: 5%;
+  padding-top: 5%;
+}
+.cuadroGeneral ul li {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+}
+.cuadroMision {
+  width: 90%;
+  height: auto;
+  background-color: #b8e3ff;
+  border-radius: 8px;
+  margin-bottom: 5%;
+}
+.cuadroMision h3 {
+  font-family: "Yeseva One", serif;
+  font-weight: 900;
+  font-style: normal;
+  margin: 0;
+  padding-left: 5%;
+  padding-top: 5%;
+}
+.cuadroMision p {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+  padding: 5%;
+}
+.cuadroVision {
+  width: 90%;
+  height: auto;
+  background-color: #b8e3ff;
+  border-radius: 8px;
+  margin-bottom: 5%;
+}
+.cuadroVision h3 {
+  font-family: "Yeseva One", serif;
+  font-weight: 900;
+  font-style: normal;
+  margin: 0;
+  padding-left: 5%;
+  padding-top: 5%;
+}
+.cuadroVision p {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+  padding: 5%;
+}
+.forma3 {
+  width: 100%;
+  height: auto;
+  background-color: #b8e3ff;
+  display: flex;
+  padding-top: 7%;
+}
+.forma3Sector1 {
+  width: 50%;
+}
+.forma3Sector1 h1 {
+  font-family: "Yeseva One", serif;
+  font-weight: 900;
+  font-style: normal;
+  margin: 0;
+  padding-left: 5%;
+  padding-top: 5%;
+}
+.forma3Sector1 p {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+  padding: 5%;
+}
+.forma3Sector2 {
+  width: 50%;
+  display: grid;
+  place-items: center;
+  padding-top: 5%;
+}
+.direccion {
+  width: 80%;
+  background-color: #007bff;
+  border-radius: 8px;
+  margin-bottom: 5%;
+}
+.direccion h5 {
+  padding-left: 5%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  font-size: 120%;
+  font-family: "Yeseva One", serif;
+  font-weight: 900;
+  font-style: normal;
+  color: white;
+  margin: 0;
+}
+.direccion p {
+  padding-left: 5%;
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+  color: white;
+  margin-bottom: 5%;
+}
+.telefono {
+  width: 80%;
+  background-color: #007bff;
+  border-radius: 8px;
+  margin-bottom: 5%;
+}
+.telefono h5 {
+  padding-left: 5%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  font-size: 120%;
+  font-family: "Yeseva One", serif;
+  font-weight: 900;
+  font-style: normal;
+  color: white;
+  margin: 0;
+}
+.telefono p {
+  padding-left: 5%;
+  font-family: "DM Serif Display", serif;
+  font-weight: 500;
+  font-style: normal;
+  margin: 0;
+  color: white;
+  margin-bottom: 5%;
+}
+.correo {
+  width: 80%;
+  background-color: #007bff;
+  border-radius: 8px;
+  margin-bottom: 5%;
+}
+.correo h5 {
+  padding-left: 5%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  font-size: 120%;
+  font-family: "Yeseva One", serif;
+  font-weight: 900;
+  font-style: normal;
+  margin: 0;
+  color: white;
+}
+.correo p {
+  padding-left: 5%;
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+  margin-bottom: 5%;
+  color: white;
+}
+.forma4 {
+  width: 100%;
+  height: auto;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  text-align: center;
+}
+.forma4Sesion1 b {
+  width: 80%;
+  padding-bottom: 5%;
+  font-family: "DM Serif Display", serif;
+  font-weight: 700;
+  font-style: normal;
+  margin: 0;
+}
+.forma5 {
+  width: 100%;
+  height: auto;
+  background-color: #007bff;
+  border-radius: 0px 0px 10px 10px;
+  display: flex;
+  justify-content: center;
+  gap: 15%;
+  padding-top: 3%;
+  margin-bottom: 3%;
+}
+.forma5 b {
+  margin: 0;
+  width: 100%;
+  color: white;
+  font-family: "DM Serif Display", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.PoliticaSercicio {
+  display: flex;
+  justify-content: flex-end;
+  gap: 5%;
+  padding-bottom: 3%;
+  margin: 0;
+  width: 40%;
+  color: white;
+  font-family: "DM Serif Display", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+/*  */
+.contentPopupSesion {
+  width: 41vh;
+  height: 38vh;
+  display: grid;
+  place-items: center;
+  background-color: #e6e6fa;
+  position: relative;
+=======
   font-family: "Oleo Script", system-ui;
   font-weight: 700;
   font-style: normal;
@@ -353,14 +745,31 @@
   font-weight: 100;
   font-style: normal;
   color: #ffffff;
+>>>>>>> 7871276d71fdc7adb73963344f7f29ef56fc835a
 }
 .popUpsesion {
   position: fixed;
   width: 100%;
+<<<<<<< HEAD
+  z-index: 20;
+=======
+>>>>>>> 7871276d71fdc7adb73963344f7f29ef56fc835a
   height: 100vh;
   top: 0vh;
   left: 0%;
   background-color: #e6e6fa;
+<<<<<<< HEAD
+  display: grid;
+  place-items: center;
+}
+.card1 {
+  width: 33vh;
+  height: 18vh;
+  background-color: white;
+  border-radius: 5px 5px 230px 230px;
+  position: absolute;
+  bottom: 0;
+=======
   display: flex;
   z-index: 14;
 }
@@ -379,6 +788,7 @@
   left: 33.6%;
   background-color: green;
   transition: 2s;
+>>>>>>> 7871276d71fdc7adb73963344f7f29ef56fc835a
 }
 .faGoogle {
   font-size: 290%;
@@ -386,6 +796,14 @@
   padding-top: 16%;
 }
 .card2 {
+<<<<<<< HEAD
+  width: 33vh;
+  height: 18vh;
+  background-color: white;
+  border-radius: 230px 230px 5px 5px;
+  position: absolute;
+  top: 0;
+=======
   width: 360px;
   height: 180px;
   background-color: white;
@@ -401,6 +819,7 @@
   top: 17%;
   transition: 2s;
   background-color: green;
+>>>>>>> 7871276d71fdc7adb73963344f7f29ef56fc835a
 }
 .faFacebook {
   font-size: 290%;
@@ -468,7 +887,11 @@
 .userName {
   margin: 0;
   color: #ffffff;
+<<<<<<< HEAD
+  margin-top: -18px;
+=======
   margin-top: -18px
+>>>>>>> 7871276d71fdc7adb73963344f7f29ef56fc835a
 }
 .faEllipsisVertical {
   position: absolute;
@@ -492,7 +915,10 @@
   border-color: #007bff;
   background-color: #007bff;
   color: white;
+<<<<<<< HEAD
+=======
 
+>>>>>>> 7871276d71fdc7adb73963344f7f29ef56fc835a
 }
 .usuarioMenu img {
   width: 8vh;
@@ -506,8 +932,13 @@
 .letraIniciodeSesion {
   text-align: center;
   width: 100%;
+<<<<<<< HEAD
+  position: fixed;
+  top: 15%;
+=======
   position: absolute;
   top: 5%;
+>>>>>>> 7871276d71fdc7adb73963344f7f29ef56fc835a
 }
 .esteOEste {
   position: absolute;
@@ -574,7 +1005,11 @@
   padding-top: 12vh;
   place-items: center;
   display: grid;
+<<<<<<< HEAD
+  background-color: #d6f2ff;
+=======
   background-color: #ffffff;
+>>>>>>> 7871276d71fdc7adb73963344f7f29ef56fc835a
 }
 .navegacionAdmDeZonaPublicacion {
   overflow-y: hidden;
@@ -591,15 +1026,29 @@
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   padding-bottom: 2%;
+<<<<<<< HEAD
+  background-color: #d6f2ff;
+=======
+>>>>>>> 7871276d71fdc7adb73963344f7f29ef56fc835a
 }
 .publicidad {
   width: 30vh;
   height: 40vh;
   border-radius: 5px;
+<<<<<<< HEAD
+  background-color: #1eadff;
+  margin-top: 5%;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-style: normal;
+=======
   background-color: #f8f9fa;
   margin-top: 5%;
   text-align: center;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+>>>>>>> 7871276d71fdc7adb73963344f7f29ef56fc835a
 }
 .publicidad:hover {
   opacity: 0.8;
@@ -620,7 +1069,11 @@
   position: fixed;
   overflow-y: auto;
   top: 0%;
+<<<<<<< HEAD
+  background-color: #dff0ff;
+=======
   background-color: #f8f9fa;
+>>>>>>> 7871276d71fdc7adb73963344f7f29ef56fc835a
 }
 .contenscrollSubirFhotoAndVideo {
   width: 100%;
@@ -668,6 +1121,14 @@
   height: 10vh;
   border-radius: 5px;
   margin-top: 10%;
+<<<<<<< HEAD
+  color: black;
+}
+.videosSubidos{
+  width: 100%;
+  height: 100%;
+=======
+>>>>>>> 7871276d71fdc7adb73963344f7f29ef56fc835a
 }
 .cajaSubirFotoyVideos {
   display: flex;
@@ -681,7 +1142,11 @@
   background-color: #007bff;
   z-index: 298;
   border-radius: 5px;
+<<<<<<< HEAD
+  top: 33%;
+=======
   top: 45%;
+>>>>>>> 7871276d71fdc7adb73963344f7f29ef56fc835a
   left: 39%;
   text-align: center;
   color: white;
@@ -709,14 +1174,22 @@
   left: 0;
   z-index: 30;
 }
+<<<<<<< HEAD
+=======
 
+>>>>>>> 7871276d71fdc7adb73963344f7f29ef56fc835a
 .anuncioAdmin {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 20px;
+<<<<<<< HEAD
+  margin-top: 11%;
+}
+=======
 }
 
+>>>>>>> 7871276d71fdc7adb73963344f7f29ef56fc835a
 .anuncioImportanteColorFavorit {
   resize: none;
   padding: 10px;
@@ -725,19 +1198,58 @@
   width: 50vh;
   height: 50vh;
 }
+<<<<<<< HEAD
+=======
 
+>>>>>>> 7871276d71fdc7adb73963344f7f29ef56fc835a
 .colorPicker {
   margin-top: 10px;
   display: flex;
   gap: 10px;
 }
+<<<<<<< HEAD
+=======
 
+>>>>>>> 7871276d71fdc7adb73963344f7f29ef56fc835a
 .colorPicker button {
   width: 30px;
   height: 30px;
   cursor: pointer;
   border: none;
   outline: none;
+<<<<<<< HEAD
+  /* outline: none; para eliminar todos los efectos de los btn que bienen por defecto */
+}
+.btnPublicarAnuncioColor {
+  position: absolute;
+  top: 1%;
+  right: 1%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  font-family: "DM Serif Display", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.contentSalirPopupColor {
+  position: absolute;
+  top: 2%;
+  left: 3%;
+  display: flex;
+  width: 94%;
+  align-items: center;
+  gap: 4%;
+}
+.iconSalirPublicadorColor {
+  top: 2%;
+  left: 3%;
+  font-size: 180%;
+}
+.subirAnuncio {
+  font-size: 120%;
+  margin: 0;
+  font-family: "DM Serif Display", serif;
+  font-weight: 900;
+  font-style: normal;
+=======
 }
 /* aca esta arregal */
 .btnColorPicker {
@@ -772,6 +1284,7 @@
   right: 3%;
   background-color: #007bff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+>>>>>>> 7871276d71fdc7adb73963344f7f29ef56fc835a
 }
 
 /* mainHome css  */
@@ -793,12 +1306,20 @@
   place-items: center;
 }
 .gestionamientoCarta {
+<<<<<<< HEAD
+  background-color: #1eadff;
+=======
   background-color: #f8f9fa;
+>>>>>>> 7871276d71fdc7adb73963344f7f29ef56fc835a
   border-radius: 5px;
   display: grid;
   place-items: center;
   position: relative;
+<<<<<<< HEAD
+  box-shadow: 0 0 10px rgba(0, 47, 255, 0.5);
+=======
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+>>>>>>> 7871276d71fdc7adb73963344f7f29ef56fc835a
   width: 98%;
 }
 .cajaContenSubidaAdmin {
@@ -808,6 +1329,10 @@
   padding-top: 4%;
   justify-content: left;
   width: 100%;
+<<<<<<< HEAD
+  gap: 4%;
+=======
+>>>>>>> 7871276d71fdc7adb73963344f7f29ef56fc835a
 }
 .adminFundaAyudaSubeFotoNombre {
   margin: 0;
@@ -871,7 +1396,11 @@
   margin: 0 auto;
   overflow: hidden;
   overflow-y: hidden;
+<<<<<<< HEAD
+  background-color: #1eadff;
+=======
   background-color: #f8f9fa;
+>>>>>>> 7871276d71fdc7adb73963344f7f29ef56fc835a
 }
 .manejarCarrusel {
   display: flex;
@@ -882,7 +1411,11 @@
   position: relative;
   display: grid;
   place-items: center;
+<<<<<<< HEAD
+  background-color: #d6f2ff;
+=======
   background-color: white;
+>>>>>>> 7871276d71fdc7adb73963344f7f29ef56fc835a
 }
 .heartReaccion {
   font-size: 180%;
@@ -936,7 +1469,11 @@
   position: absolute;
   top: 0;
   left: 32%;
+<<<<<<< HEAD
+  background-color: #b8e3ff;
+=======
   background-color: #e3f2fd;
+>>>>>>> 7871276d71fdc7adb73963344f7f29ef56fc835a
   width: 66%;
   height: 100vh;
 }
@@ -970,7 +1507,11 @@
 .clienteReflejadoEnScroll {
   width: 100%;
   height: 70vh;
+<<<<<<< HEAD
+  background-color: #b8e3ff;
+=======
   background-color: #e3f2fd;
+>>>>>>> 7871276d71fdc7adb73963344f7f29ef56fc835a
   overflow-y: auto;
 }
 .scrollChatearCoversation {
@@ -978,7 +1519,11 @@
   height: auto;
 }
 .mensajeEnviado {
+<<<<<<< HEAD
+  background-color: #78cdff;
+=======
   background-color: #d4edda;
+>>>>>>> 7871276d71fdc7adb73963344f7f29ef56fc835a
   margin: 5px;
   padding: 10px;
   border-radius: 10px;
@@ -989,7 +1534,11 @@
 
 .mensajeRecibido {
   align-self: flex-start;
+<<<<<<< HEAD
+  background-color: #1eadff;
+=======
   background-color: #e0e0e0;
+>>>>>>> 7871276d71fdc7adb73963344f7f29ef56fc835a
   margin: 5px;
   padding: 10px;
   border-radius: 10px;
@@ -1043,7 +1592,11 @@
   display: flex;
   flex-direction: column-reverse;
   gap: 10px;
+<<<<<<< HEAD
+  background-color: #b8e3ff;
+=======
   background-color: #e3f2fd;
+>>>>>>> 7871276d71fdc7adb73963344f7f29ef56fc835a
   height: 85vh;
   width: 30%;
   padding-top: 15vh;
@@ -1103,7 +1656,11 @@
 .SubirPDFMOstrar button {
   width: 65%;
   height: 100%;
+<<<<<<< HEAD
+  background-color: #1eadff;
+=======
   background-color: #f8f9fa;
+>>>>>>> 7871276d71fdc7adb73963344f7f29ef56fc835a
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   color: black;
 }
@@ -1116,7 +1673,11 @@
   top: 0;
   left: 1%;
   padding-top: 34vh;
+<<<<<<< HEAD
+  background-color: #d6f2ff;
+=======
   background-color: white;
+>>>>>>> 7871276d71fdc7adb73963344f7f29ef56fc835a
 }
 .tituloCurriculum {
   position: absolute;
@@ -1137,7 +1698,11 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+<<<<<<< HEAD
+  background-color: #1eadff;
+=======
   background-color: #f8f9fa;
+>>>>>>> 7871276d71fdc7adb73963344f7f29ef56fc835a
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   color: black;
 }
@@ -1155,9 +1720,15 @@
 }
 .subirPDFCurriculumBtn {
   width: 100%;
+<<<<<<< HEAD
+  height: 92vh;
+  background-color: #ffffff;
+  top: -2vh;
+=======
   height: 90vh;
   background-color: #ffffff;
   top: 0;
+>>>>>>> 7871276d71fdc7adb73963344f7f29ef56fc835a
   left: 0;
   position: absolute;
 }
@@ -1224,10 +1795,18 @@
 .galeriaGrid {
   width: 100%;
   display: grid;
+<<<<<<< HEAD
+  place-items: center;
+=======
+>>>>>>> 7871276d71fdc7adb73963344f7f29ef56fc835a
   grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
   position: absolute;
   top: 80px;
   left: 0;
+<<<<<<< HEAD
+  background-color: #d6f2ff;
+=======
+>>>>>>> 7871276d71fdc7adb73963344f7f29ef56fc835a
 }
 .mostrarCompletaFotoGaleria {
   position: fixed;
@@ -1276,36 +1855,130 @@
 }
 
 /* informacion fundacion css  */
+<<<<<<< HEAD
+.contactosInformacionFundacion {
+  display: flex;
+}
+.cuadroSectorNumeros {
+  width: 75%;
+  background-color: #007bff;
+  border-radius: 10px;
+  padding: 2%;
+  margin-bottom: 3%;
+}
+.cuadroSectorCorreo {
+  width: 75%;
+  background-color: #007bff;
+  border-radius: 10px;
+  padding: 2%;
+  margin-bottom: 3%;
+}
+.cuadroNit {
+  width: 75%;
+  background-color: #007bff;
+  border-radius: 10px;
+  padding: 2%;
+  margin-bottom: 3%;
+}
+.fundadores {
+  width: 75%;
+  background-color: #007bff;
+  border-radius: 10px;
+  padding: 2%;
+  margin-bottom: 3%;
+}
+.MensajeContactosFundacion {
+  width: 50%;
+}
+.MensajeContactosFundacion h2 {
+  font-family: "DM Serif Display", serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 240%;
+  padding-left: 5%;
+  margin: 0;
+}
+.MensajeContactosFundacion p {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-style: normal;
+  padding-left: 5%;
+}
+.sectorDatosContactos {
+  width: 50%;
+  display: grid;
+  place-items: center;
+}
+=======
+>>>>>>> 7871276d71fdc7adb73963344f7f29ef56fc835a
 .numero1 {
   display: flex;
   align-items: center;
   gap: 3%;
+<<<<<<< HEAD
+  font-family: "Yeseva One", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+=======
+>>>>>>> 7871276d71fdc7adb73963344f7f29ef56fc835a
 }
 .numero2 {
   display: flex;
   align-items: center;
   gap: 3%;
+<<<<<<< HEAD
+  font-family: "Yeseva One", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+=======
+>>>>>>> 7871276d71fdc7adb73963344f7f29ef56fc835a
 }
 .correoElectronico {
   display: flex;
   align-items: center;
   gap: 3%;
+<<<<<<< HEAD
+  font-family: "Yeseva One", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+=======
+>>>>>>> 7871276d71fdc7adb73963344f7f29ef56fc835a
 }
 .nit {
   display: flex;
   align-items: center;
   gap: 3%;
+<<<<<<< HEAD
+  font-family: "Yeseva One", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+=======
+>>>>>>> 7871276d71fdc7adb73963344f7f29ef56fc835a
 }
 .contentInnformacionFundaPublicidad {
   position: absolute;
   top: 0;
   left: 0;
+<<<<<<< HEAD
+  width: 100%;
+  padding-top: 10vh;
+  background-color: #d6f2ff;
+}
+.googleMap {
+  margin-bottom: 5%;
+  margin-left: 10%;
+=======
   width: 90%;
   padding-left: 10%;
   padding-top: 10vh;
 }
 .googleMap {
   margin-bottom: 5%;
+>>>>>>> 7871276d71fdc7adb73963344f7f29ef56fc835a
 }
 .iconWhatsappInfor {
   font-size: 180%;
@@ -1317,36 +1990,80 @@
 }
 .NITInfor {
   font-size: 130%;
+<<<<<<< HEAD
+  color: white;
+=======
   color: black;
+>>>>>>> 7871276d71fdc7adb73963344f7f29ef56fc835a
 }
 .subtitulosDeInfor {
   font-size: 140%;
   margin: 0;
   margin-top: 3%;
   font-family: "Oleo Script", system-ui;
+<<<<<<< HEAD
+  color: white;
+  font-family: "Yeseva One", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+.subtitulosDeInforGoogleMap {
+  font-size: 140%;
+  margin: 0;
+  margin-top: 3%;
+  font-family: "Oleo Script", system-ui;
+  color: black;
+  font-family: "Yeseva One", serif;
+  font-weight: 900;
+  font-style: normal;
+  width: 90%;
+=======
+>>>>>>> 7871276d71fdc7adb73963344f7f29ef56fc835a
 }
 .cantidadFundadores {
   list-style: none;
 }
 .cantidadFundadores li b {
+<<<<<<< HEAD
+  color: white;
+  font-size: 120%;
+}
+.cantidadFundadores li {
+  font-family: "Yeseva One", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+=======
   color: black;
   font-size: 120%;
 }
 .cantidadFundadores li {
   font-family: "Oleo Script", system-ui;
+>>>>>>> 7871276d71fdc7adb73963344f7f29ef56fc835a
 }
 
 /* anuncio biblicos css  */
 
 .anuncio {
+<<<<<<< HEAD
+  background-color: #1eadff;
+=======
   background-color: #f8f9fa;
+>>>>>>> 7871276d71fdc7adb73963344f7f29ef56fc835a
   border-radius: 5px;
   display: grid;
   place-items: center;
   position: relative;
+<<<<<<< HEAD
+  box-shadow: 0 0 10px rgb(3 55 227 / 50%);
+  width: 50vh;
+  height: 50vh;
+  margin-bottom: 4%;
+=======
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   width: 50vh;
   height: 50vh;
+>>>>>>> 7871276d71fdc7adb73963344f7f29ef56fc835a
 }
 .contentCardExterior {
   width: 95%;
@@ -1437,7 +2154,11 @@
 .apoyoScrollDerrame {
   overflow-y: hidden;
 }
+<<<<<<< HEAD
+.mostrarImgLogoConEfectoGrande {
+=======
 .mostrarImgLogoConEfectoGrande{
+>>>>>>> 7871276d71fdc7adb73963344f7f29ef56fc835a
   width: 80vh;
 }
 /* donacion css  */
@@ -1446,7 +2167,11 @@
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
+<<<<<<< HEAD
+  background-color: #1eadff;
+=======
   background-color: white;
+>>>>>>> 7871276d71fdc7adb73963344f7f29ef56fc835a
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   padding-top: 13%;
@@ -1455,6 +2180,17 @@
   overflow-y: hidden;
   width: 100%;
   height: 100%;
+<<<<<<< HEAD
+  padding-top: 0;
+  place-items: center;
+  display: grid;
+  background-color: #1eadff;
+}
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+=======
   padding-top: 4vh;
   place-items: center;
   display: grid;
@@ -1464,16 +2200,26 @@
   position: fixed;
   top: 0;
   left: 0;
+>>>>>>> 7871276d71fdc7adb73963344f7f29ef56fc835a
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
   display: flex;
   align-items: center;
   justify-content: center;
+<<<<<<< HEAD
+  background: #d6f2ff;
+  z-index: 1000;
+  transform: translate(-50%, -50%);
+}
+.popupContent {
+  background-color: #1eadff;
+=======
 }
 
 .popupContent {
   background-color: white;
+>>>>>>> 7871276d71fdc7adb73963344f7f29ef56fc835a
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -1481,6 +2227,23 @@
   max-width: 500px;
   width: 100%;
 }
+<<<<<<< HEAD
+.popupContent h4 {
+  margin-top: 0;
+  font-family: "DM Serif Display", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+.popupContent p {
+  margin: 10px 0;
+}
+.popupContent b {
+  font-family: "DM Serif Display", serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 200%;
+}
+=======
 
 .popupContent h4 {
   margin-top: 0;
@@ -1490,18 +2253,32 @@
   margin: 10px 0;
 }
 
+>>>>>>> 7871276d71fdc7adb73963344f7f29ef56fc835a
 .popupCloseIcon {
   position: absolute;
   top: 10px;
   right: 10px;
   cursor: pointer;
 }
+<<<<<<< HEAD
+.formularioDonacion {
+=======
 
 form {
+>>>>>>> 7871276d71fdc7adb73963344f7f29ef56fc835a
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
+<<<<<<< HEAD
+.formularioDonacion input[type="text"],
+.formularioDonacion input[type="email"],
+.formularioDonacion input[type="tel"],
+.formularioDonacion input[type="number"],
+.formularioDonacion input[list],
+.formularioDonacion input[type="checkbox"],
+.formularioDonacion button {
+=======
 
 form input[type="text"],
 form input[type="email"],
@@ -1510,10 +2287,22 @@ form input[type="number"],
 form input[list],
 form input[type="checkbox"],
 form button {
+>>>>>>> 7871276d71fdc7adb73963344f7f29ef56fc835a
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 4px;
   font-size: 16px;
+<<<<<<< HEAD
+  background-color: #dff0ff;
+  color: black;
+}
+.formularioDonacion input[type="checkbox"] {
+  width: auto;
+  margin-right: 10px;
+}
+.formularioDonacion button {
+  background-color: #007bff;
+=======
   background-color: white;
   color: black;
 }
@@ -1525,11 +2314,28 @@ form input[type="checkbox"] {
 
 form button {
   background-color: #28a745;
+>>>>>>> 7871276d71fdc7adb73963344f7f29ef56fc835a
   color: white;
   border: none;
   cursor: pointer;
   transition: background-color 0.3s;
 }
+<<<<<<< HEAD
+.formularioDonacion button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+.formularioDonacion button:hover:not(:disabled) {
+  background-color: #007bff;
+}
+.formularioDonacion div {
+  display: flex;
+  align-items: center;
+}
+.formularioDonacion p {
+  margin: 0;
+  color: red;
+=======
 
 form button:disabled {
   background-color: #ccc;
@@ -1548,16 +2354,34 @@ form div {
 form p {
   margin: 0;
   color: #777;
+>>>>>>> 7871276d71fdc7adb73963344f7f29ef56fc835a
 }
 .aviso {
   width: 247px;
   text-align: center;
+<<<<<<< HEAD
+  font-size: 90%;
+  font-family: "DM Serif Display", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+.TerminosCondicionAcepto {
+  font-family: "DM Serif Display", serif;
+  font-weight: 900;
+  font-style: normal;
+  color: black;
+}
+
+/* recuperacion de los datos del formulario de donacion css  */
+.popUpCuadroFromBox {
+=======
   font-size: 76%;
   font-weight: 700;
 }
 
 /* recuperacion de los datos del formulario de donacion css  */
 .popUpCuadroFromBox{
+>>>>>>> 7871276d71fdc7adb73963344f7f29ef56fc835a
   position: fixed;
   top: 0;
   left: 0;
@@ -1566,6 +2390,8 @@ form p {
   height: 100vh;
   z-index: 30;
 }
+<<<<<<< HEAD
+=======
 .popup {
   position: fixed;
   top: 50%;
@@ -1578,6 +2404,7 @@ form p {
   border-radius: 8px;
 }
 
+>>>>>>> 7871276d71fdc7adb73963344f7f29ef56fc835a
 .popupContent {
   position: relative;
 }
@@ -1592,8 +2419,13 @@ form p {
 .donationItem {
   padding: 10px;
   margin: 10px 0;
+<<<<<<< HEAD
+  border: 1px solid #1eadff;
+  background-color: #1eadff;
+=======
   border: 1px solid #f8f9fa;
   background-color: #f8f9fa;
+>>>>>>> 7871276d71fdc7adb73963344f7f29ef56fc835a
   border-radius: 5px;
   cursor: pointer;
   display: flex;
@@ -1602,23 +2434,37 @@ form p {
   height: 5vh;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
+<<<<<<< HEAD
+.iconSalirfaArrowLeft {
+=======
 .iconSalirfaArrowLeft{
+>>>>>>> 7871276d71fdc7adb73963344f7f29ef56fc835a
   font-size: 180%;
   margin-top: 2%;
   margin-left: 1%;
   position: absolute;
 }
+<<<<<<< HEAD
+.contentScrollFromBox {
+  width: 100%;
+  height: 100vh;
+  overflow-y: auto;
+  background-color: #b8e3ff;
+=======
 .contentScrollFromBox{
   width: 100%;
   height: 100vh;
   overflow-y: auto;
   background-color: white;
+>>>>>>> 7871276d71fdc7adb73963344f7f29ef56fc835a
   padding-top: 6%;
   padding-left: 5%;
 }
 .listIcon {
   margin-right: 10px;
 }
+<<<<<<< HEAD
+=======
 .closePublicacion {
   position: fixed;
   top: 50%;
@@ -1631,6 +2477,7 @@ form p {
   border-radius: 8px;
   text-align: center;
 }
+>>>>>>> 7871276d71fdc7adb73963344f7f29ef56fc835a
 .closePublicacionBtnCentrado {
   display: flex;
   justify-content: space-around;
@@ -1642,6 +2489,44 @@ form p {
   border-radius: 5px;
   cursor: pointer;
 }
+<<<<<<< HEAD
+.btnAceptar {
+  background-color: #007bff;
+}
+.entiendoAceptoTrans {
+  font-family: "DM Serif Display", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+@media screen and (max-width: 768px) {
+  /* vistaPricipal  */
+  .namePage {
+    width: 100%;
+    display: grid;
+    place-items: center;
+  }
+  .namePage h3 {
+    width: 70%;
+    font-size: 90%;
+    height: 8vh;
+    display: grid;
+    place-items: center;
+    align-items: center;
+    font-weight: 900;
+    margin-top: -1%;
+  }
+  .encabezado {
+    width: 100%;
+    height: 8vh;
+    background-color: #007bff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 19;
+  }
+  .mostrarImgLogoConEfectoGrande {
+=======
 
 
 @media screen and (max-width: 768px) {
@@ -1762,10 +2647,82 @@ form p {
     position: absolute;
   }
   .mostrarImgLogoConEfectoGrande{
+>>>>>>> 7871276d71fdc7adb73963344f7f29ef56fc835a
     width: 80%;
     height: 40%;
     object-fit: cover;
   }
+<<<<<<< HEAD
+  .forma1 {
+    width: 100%;
+    height: auto;
+  }
+  .forma1Texto1 {
+    position: relative;
+    width: 100%;
+    padding-top: 24%;
+  }
+  .forma1Texto1 h1 {
+    width: 90%;
+    font-size: 200%;
+  }
+  .forma1Texto1 p {
+    width: 66%;
+  }
+  .btnsInfor {
+    padding-bottom: 23%;
+  }
+  .forma2 {
+    flex-direction: column;
+  }
+  .forma2Sector1 {
+    width: 96%;
+  }
+  .forma2Sector2 {
+    width: 96%;
+  }
+  .forma2Sector3 {
+    width: 96%;
+  }
+  .forma2Sector4 {
+    width: 96%;
+  }
+  .forma2Sector5 {
+    width: 96%;
+  }
+  .forma3 {
+    flex-direction: column;
+  }
+  .forma3Sector1 {
+    width: 96%;
+  }
+  .forma3Sector2 {
+    width: 96%;
+  }
+  .forma5{
+    gap: 0;
+  }
+  /* informacion Sobre la Fundacion  */
+  .contactosInformacionFundacion {
+    display: grid;
+    place-items: center;
+  }
+  .MensajeContactosFundacion {
+    width: 96%;
+  }
+  .sectorDatosContactos {
+    width: 100%;
+  }
+  .MensajeContactosFundacion h2 {
+    padding-left: 0;
+  }
+  .MensajeContactosFundacion p {
+    padding-left: 0;
+  }
+  .subtitulosDeInforGoogleMap {
+    margin-left: -7%;
+    width: 100%;
+=======
   .versiculo2 p {
     margin: 0;
     width: 90%;
@@ -1809,6 +2766,7 @@ form p {
     font-weight: 700;
     font-style: normal;
     font-size: x-small;
+>>>>>>> 7871276d71fdc7adb73963344f7f29ef56fc835a
   }
   .resgistradoLogoFundaMostrar img {
     width: 5vh;
@@ -1863,7 +2821,10 @@ form p {
     height: auto;
   }
   .anuncio {
+<<<<<<< HEAD
+=======
     background-color: #f8f9fa;
+>>>>>>> 7871276d71fdc7adb73963344f7f29ef56fc835a
     border-radius: 5px;
     display: grid;
     place-items: center;
@@ -1890,7 +2851,10 @@ form p {
     display: flex;
     flex-direction: column;
     align-items: center;
+<<<<<<< HEAD
+=======
     background-color: #f8f9fa;
+>>>>>>> 7871276d71fdc7adb73963344f7f29ef56fc835a
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   }
   .linealSeparador {
@@ -1932,7 +2896,10 @@ form p {
     width: 30vh;
     height: 20vh;
     border-radius: 5px;
+<<<<<<< HEAD
+=======
     background-color: #f8f9fa;
+>>>>>>> 7871276d71fdc7adb73963344f7f29ef56fc835a
     margin-top: 5%;
     text-align: center;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
@@ -1986,14 +2953,20 @@ form p {
     position: absolute;
     top: 1%;
     right: 1%;
+<<<<<<< HEAD
+=======
     /* background-color: #cbd5df; */
+>>>>>>> 7871276d71fdc7adb73963344f7f29ef56fc835a
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   }
   .publicarFotoBtn {
     width: 20vh;
     height: 6vh;
     background-color: white;
+<<<<<<< HEAD
+=======
     color: #007bff;
+>>>>>>> 7871276d71fdc7adb73963344f7f29ef56fc835a
   }
   .salirDeSubirFoto {
     font-size: 180%;
@@ -2088,6 +3061,19 @@ form p {
     top: 4.5vh;
     height: 5vh;
   }
+<<<<<<< HEAD
+  .card2 {
+    width: 33vh;
+    height: 18vh;
+    background-color: white;
+    border-radius: 230px 230px 5px 5px;
+  }
+  .card1 {
+    width: 33vh;
+    height: 18vh;
+    background-color: white;
+    border-radius: 5px 5px 230px 230px;
+=======
   .popUpsesion {
     position: fixed;
     width: 100%;
@@ -2115,6 +3101,7 @@ form p {
     position: absolute;
     left: 13%;
     top: 39vh;
+>>>>>>> 7871276d71fdc7adb73963344f7f29ef56fc835a
   }
   .card2:hover {
     display: none;
@@ -2122,6 +3109,27 @@ form p {
   .card1:hover {
     display: none;
   }
+<<<<<<< HEAD
+  .contentPopupSesion {
+    width: 41vh;
+    height: 38vh;
+    display: grid;
+    place-items: center;
+    background-color: #e6e6fa;
+  }
+  .popUpsesion {
+    width: 100%;
+    top: 0vh;
+    left: 0%;
+    background-color: #e6e6fa;
+    display: grid;
+    place-items: center;
+  }
+  .letraIniciodeSesion {
+    top: 15%;
+  }
+=======
+>>>>>>> 7871276d71fdc7adb73963344f7f29ef56fc835a
   .newMessage {
     width: 70%;
     height: 5vh;
@@ -2159,6 +3167,55 @@ form p {
     padding: 10px;
   }
 
+<<<<<<< HEAD
+  .formularioDonacion input[type="text"],
+  .formularioDonacion input[type="email"],
+  .formularioDonacion input[type="tel"],
+  .formularioDonacion input[type="number"],
+  .formularioDonacion input[list],
+  .formularioDonacion input[type="checkbox"],
+  .formularioDonacion button {
+    font-size: 14px;
+    background-color: white;
+  }
+  .contentScrollFromBox {
+    padding-top: 15%;
+  }
+  .mainContent {
+    overflow-x: hidden;
+    background-color: #d6f2ff;
+  }
+  .userName {
+    margin: 0;
+    color: #ffffff;
+  }
+  .popUpBasura {
+    position: fixed;
+    width: 80%;
+    height: 20vh;
+    background-color: #007bff;
+    border-radius: 5px;
+    top: 35%;
+    left: 10%;
+    color: white;
+  }
+  .btnNo {
+    width: 23%;
+    background-color: white;
+    color: #007bff;
+  }
+  .btnSi {
+    width: 23%;
+    background-color: white;
+    color: #007bff;
+  }
+  .closePublicacion {
+    width: 76%;
+    left: 12%;
+  }
+  .anuncioAdmin {
+    margin-top: 32%;
+=======
   .form input[type="text"],
   .form input[type="email"],
   .form input[type="tel"],
@@ -2208,5 +3265,6 @@ form p {
   width: 23%;
   background-color: white;
   color: #007bff;
+>>>>>>> 7871276d71fdc7adb73963344f7f29ef56fc835a
 }
 }

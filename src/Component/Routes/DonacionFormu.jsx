@@ -111,7 +111,11 @@ export default function DonacionFormu() {
                     <header className="encabezado">
                         <div className="namePage">
                             <h3>FUNDACION CENTRO MISIONERO EMPRESARIAL</h3>
+<<<<<<< HEAD
+                            {/* <p>Manos que Ayudan</p> */}
+=======
                             <p>Manos que Ayudan</p>
+>>>>>>> 7871276d71fdc7adb73963344f7f29ef56fc835a
                         </div>
                         <div onClick={mostrarLogoCompleto} className="resgistradoLogoFundaMostrar">
                             <img src={logoFundacion} alt="logoFundacion" />
@@ -128,7 +132,11 @@ export default function DonacionFormu() {
                     <div className="contentDonacionScroll">
                         <p className="aviso">Tenga cuidado de no enviar un número de más. El administrador no podrá regresar el dinero en caso de error.</p>
                         <div className="donationSection">
+<<<<<<< HEAD
+                            <form className="formularioDonacion" onSubmit={handleSubmit}>
+=======
                             <form onSubmit={handleSubmit}>
+>>>>>>> 7871276d71fdc7adb73963344f7f29ef56fc835a
                                 <input type="text" name="nombre" placeholder="Nombre" value={formData.nombre} onChange={handleChange} required />
                                 <input type="text" name="apellidos" placeholder="Apellidos" value={formData.apellidos} onChange={handleChange} required />
                                 <input type="email" name="email" placeholder="Correo Electrónico" value={formData.email} onChange={handleChange} required />
@@ -152,7 +160,11 @@ export default function DonacionFormu() {
                                 <p>Límite máximo: 1,000,000 COP</p>
                                 <div>
                                     <input type="checkbox" id="terms" checked={termsAccepted} onChange={(e) => setTermsAccepted(e.target.checked)} required />
+<<<<<<< HEAD
+                                    <label htmlFor="terms" className="TerminosCondicionAcepto">Acepto los términos y condiciones</label>
+=======
                                     <label htmlFor="terms">Acepto los términos y condiciones</label>
+>>>>>>> 7871276d71fdc7adb73963344f7f29ef56fc835a
                                 </div>
                                 <button type="submit" disabled={!termsAccepted || formData.cantidad > 1000000}>Enviar</button>
                             </form>
@@ -163,6 +175,15 @@ export default function DonacionFormu() {
                             <div className="popupContent">
                                 <FontAwesomeIcon onClick={() => setShowPopup(false)} className="popupCloseIcon" icon={faXmark} />
                                 <h4>Mande al siguiente número de cuenta la cantidad especificada:</h4>
+<<<<<<< HEAD
+                                <b>52400010832</b>
+                                <p>Tenga cuidado de no enviar un número de más. El administrador no podrá regresar el dinero en caso de error.</p>
+                                <div>
+                                    <input type="checkbox" id="confirm" checked={confirmAccepted} onChange={(e) => setConfirmAccepted(e.target.checked)} />
+                                    <label className="entiendoAceptoTrans" htmlFor="confirm">He entendido y acepto</label>
+                                </div>
+                                <button className="btnAceptar" onClick={handlePopupAccept} disabled={!confirmAccepted}>Aceptar</button>
+=======
                                 <p>52400010832</p>
                                 <p>Tenga cuidado de no enviar un número de más. El administrador no podrá regresar el dinero en caso de error.</p>
                                 <div>
@@ -170,6 +191,7 @@ export default function DonacionFormu() {
                                     <label htmlFor="confirm">He entendido y acepto</label>
                                 </div>
                                 <button onClick={handlePopupAccept} disabled={!confirmAccepted}>Aceptar</button>
+>>>>>>> 7871276d71fdc7adb73963344f7f29ef56fc835a
                             </div>
                         </div>
                     )}
