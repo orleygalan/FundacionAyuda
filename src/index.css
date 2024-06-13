@@ -21,7 +21,11 @@
   a:hover {
     color: #535bf2;
   }
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> 7871276d71fdc7adb73963344f7f29ef56fc835a
   body {
     margin: 0;
     display: flex;
@@ -30,7 +34,11 @@
     min-height: 100vh;
     display: grid;
     place-items: center;
+<<<<<<< HEAD
     background-color: #d6f2ff;
+=======
+    background-color: white;
+>>>>>>> 7871276d71fdc7adb73963344f7f29ef56fc835a
   }
   
   h1 {

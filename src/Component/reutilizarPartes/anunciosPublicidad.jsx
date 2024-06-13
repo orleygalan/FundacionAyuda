@@ -19,7 +19,11 @@ export default function AnuncioAdmin(props) {
         const textArea = e.target;
         const maxHeight = 50 * parseFloat(getComputedStyle(textArea).fontSize);
         const textHeight = textArea.scrollHeight;
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> 7871276d71fdc7adb73963344f7f29ef56fc835a
         if (textHeight > maxHeight) {
             setFontSize((prevFontSize) => prevFontSize - 0.5);
         }
@@ -57,18 +61,27 @@ export default function AnuncioAdmin(props) {
             <div className="colorPicker">
                 {colors.map((c, index) => (
                     <button
+<<<<<<< HEAD
                         className="btnColorPicker"
+=======
+                    className="btnColorPicker"
+>>>>>>> 7871276d71fdc7adb73963344f7f29ef56fc835a
                         key={index}
                         style={{ backgroundColor: c, border: c === color ? '2px solid black' : 'none' }}
                         onClick={() => handleColorChange(c)}
                     />
                 ))}
             </div>
+<<<<<<< HEAD
             <div className="contentSalirPopupColor">
                 <FontAwesomeIcon className="iconSalirPublicadorColor" onClick={ocultarPopUpPublicidadColor} icon={faArrowLeft} />
                 <h5 className="subirAnuncio">subir Anuncio</h5>
                 <button className="btnPublicarAnuncioColor" onClick={handlePublish} disabled={!text.trim()}>Publicar</button>
             </div>
+=======
+            <FontAwesomeIcon className="iconSalirPublicadorColor" onClick={ocultarPopUpPublicidadColor} icon={faArrowLeft} />
+            <button className="btnPublicarAnuncioColor" onClick={handlePublish} disabled={!text.trim()}>Publicar</button>
+>>>>>>> 7871276d71fdc7adb73963344f7f29ef56fc835a
         </div>
     );
 }

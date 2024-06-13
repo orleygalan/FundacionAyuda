@@ -10,6 +10,7 @@ export default function MenuBrowserRouter() {
 
     const LinkMenuBrowser = [
         {
+<<<<<<< HEAD
             name: "",
             name2: "",
             href: "/"
@@ -36,6 +37,34 @@ export default function MenuBrowserRouter() {
         },
         {
             name: "Publicación",
+=======
+            name: "Vista Previa",
+            name2: "Vista Previa",
+            href: "/"
+        },
+        {
+            name: "Contenido Publicado",
+            name2: "Contenido Publicado",
+            href: "/mainHomen"
+        },
+        {
+            name: "Anuncio Biblicos",
+            name2: "Anuncio Biblicos",
+            href: "/anuncioBiblicos"
+        },
+        {
+            name: "Hojas De Vida",
+            name2: "Hojas De Vida",
+            href: "/curriculum"
+        },
+        {
+            name: "Información de la Fundación",
+            name2: "Información de la Fundación",
+            href: "/informacioFundacion"
+        },
+        {
+            name: "Zona de publicación",
+>>>>>>> 7871276d71fdc7adb73963344f7f29ef56fc835a
             href: "/zonadePublicacion",
             clienteEspecial: true
         },
