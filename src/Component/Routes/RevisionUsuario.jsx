@@ -51,7 +51,7 @@ export default function RevisionUsuario() {
             <header className="encabezado">
                 <div className="namePage">
                     <h3>FUNDACION CENTRO MISIONERO EMPRESARIAL</h3>
-                    {/* <p>Manos que Ayudan</p> */}
+                    <p>Manos que Ayudan</p>
                 </div>
                 {logedIn && (
                     <div onClick={mostrarLogoCompleto} className="resgistradoLogoFundaMostrar">

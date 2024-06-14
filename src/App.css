@@ -6,7 +6,7 @@
 }
 .encabezado {
   width: 100%;
-  height: 10vh;
+  height: auto;
   background-color: #007bff;
   position: fixed;
   top: 0;
@@ -18,8 +18,8 @@
   overflow-y: hidden;
 }
 .resgistradoLogoFundaMostrar img {
-  width: 7vh;
-  height: 7vh;
+  width: 5%;
+  height: auto;
   object-fit: cover;
   border-radius: 100vh;
   position: absolute;
@@ -67,13 +67,13 @@
   font-weight: 500;
   font-style: normal;
   color: #ffffff;
-  margin-top: 1.5vh;
 }
 .namePage p {
   margin: 0;
   font-family: "Yeseva One", serif;
   font-weight: 500;
   font-style: normal;
+  padding-bottom: 1%;
 }
 
 /* css fuente para el tipo de letra */
@@ -499,7 +499,7 @@
   font-size: 150%;
   position: fixed;
   left: 2%;
-  top: 2.5vh;
+  top: 2%;
   z-index: 29;
   color: #ffffff;
 }
@@ -513,7 +513,7 @@
 }
 .popUpMenuBurger {
   position: fixed;
-  width: 45vh;
+  width: 30%;
   height: 100vh;
   background-color: #007bff;
   z-index: 20;
@@ -571,8 +571,8 @@
   color: white;
 }
 .usuarioMenu img {
-  width: 8vh;
-  height: 8vh;
+  width: 18%;
+  height: auto;
   border-radius: 100vh;
   position: absolute;
   top: 8vh;
@@ -750,7 +750,7 @@
   margin-top: 10%;
   color: black;
 }
-.videosSubidos{
+.videosSubidos {
   width: 100%;
   height: 100%;
 }
@@ -866,7 +866,7 @@
   object-fit: cover;
 }
 .cartasContenExterior {
-  width: 80vh;
+  width: 60%;
   display: grid;
   gap: 20px;
   place-items: center;
@@ -893,6 +893,9 @@
   margin: 0;
   color: black;
   width: 70%;
+  font-family: "Yeseva One", serif;
+  font-weight: 800;
+  font-style: normal;
 }
 .comment {
   width: 410px;
@@ -904,8 +907,8 @@
   width: 100%;
 }
 .adminSubePublicacionFoto {
-  width: 10vh;
-  height: 10vh;
+  width: 11%;
+  height: auto;
   border-radius: 100px;
 }
 .adminSubePublicacionFoto img {
@@ -996,14 +999,14 @@
   width: 100%;
 }
 .fotoDelAbministrador img {
-  width: 10vh;
-  height: 10vh;
+  width: 60%;
+  height: auto;
   border-radius: 100px;
   margin-left: 3%;
 }
 .fotoDelosUsuarios img {
-  width: 7vh;
-  height: 7vh;
+  width: 43%;
+  height: auto;
   border-radius: 100px;
   margin-left: 25%;
   display: flex;
@@ -1025,22 +1028,24 @@
 }
 .salirDePopUpChat {
   font-size: 150%;
-  margin-left: 5%;
+  margin-left: 1%;
 }
 .barraChat {
   background-color: #007bff;
-  width: 100%;
-  height: 10vh;
+  width: 96%;
+  height: auto;
   align-items: center;
   display: flex;
   color: white;
+  padding: 2%;
+  position: fixed;
 }
 .clienteHablaChat {
   width: 6vh;
   height: 6vh;
   border-radius: 55px;
   background-color: #18cf21;
-  margin-left: 3%;
+  margin-left: 1%;
 }
 .nameClienteHablar {
   margin: 0;
@@ -1056,6 +1061,7 @@
 .scrollChatearCoversation {
   width: 100%;
   height: auto;
+  margin-top: 15%;
 }
 .mensajeEnviado {
   background-color: #78cdff;
@@ -1144,12 +1150,12 @@
 .datosChatUsuario {
   display: flex;
   align-items: center;
-  gap: 10%;
+  gap: -4%;
 }
 .dataAdminChat {
   display: flex;
   align-items: center;
-  gap: 10%;
+  gap: -4%;
 }
 .chatDelAdministrador:hover {
   opacity: 0.7;
@@ -1175,14 +1181,14 @@
   background-color: #007bff;
 }
 .SubirPDFMOstrar {
-  width: 40vh;
-  height: 8vh;
+  width: 20%;
+  height: auto;
   border-radius: 99px;
   margin-left: 1%;
 }
 .SubirPDFMOstrar button {
-  width: 65%;
-  height: 100%;
+  width: 100%;
+  height: auto;
   background-color: #1eadff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   color: black;
@@ -1258,7 +1264,7 @@
 }
 .linealSeparador {
   height: 1px;
-  width: 25vh;
+  width: 18vh;
   background-color: black;
   margin-bottom: 8%;
 }
@@ -1292,8 +1298,8 @@
 
 /* galeria css  */
 .galeriaItem {
-  width: 26vh;
-  height: 40vh;
+  width: 90%;
+  height: auto;
   padding-top: 6%;
 }
 .galeriaItem img {
@@ -1515,14 +1521,14 @@
   place-items: center;
   position: relative;
   box-shadow: 0 0 10px rgb(3 55 227 / 50%);
-  width: 50vh;
+  width: 60%;
   height: 50vh;
   margin-bottom: 4%;
 }
 .contentCardExterior {
-  width: 95%;
+  width: 100%;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(460px, 1fr));
   gap: 20px;
   place-items: center;
   overflow-x: hidden;
@@ -1538,6 +1544,8 @@
 .navegacionUsuarioAdmAnuncio {
   width: 95%;
   height: 100%;
+  display: grid;
+  place-items: center;
 }
 .anuncioBiblicoFrase {
   width: 100%;
@@ -1548,7 +1556,7 @@
 .cajaContenSubidaAdminAnuncioBiblicos {
   display: flex;
   align-items: center;
-  gap: 5%;
+  gap: 10%;
   margin: 0;
   height: 10vh;
   position: absolute;
@@ -1816,7 +1824,7 @@
   .namePage h3 {
     width: 70%;
     font-size: 90%;
-    height: 8vh;
+    height: auto;
     display: grid;
     place-items: center;
     align-items: center;
@@ -1825,7 +1833,7 @@
   }
   .encabezado {
     width: 100%;
-    height: 8vh;
+    height: auto;
     background-color: #007bff;
     position: fixed;
     top: 0;
@@ -1883,7 +1891,7 @@
   .forma3Sector2 {
     width: 96%;
   }
-  .forma5{
+  .forma5 {
     gap: 0;
   }
   /* informacion Sobre la Fundacion  */
@@ -2300,5 +2308,98 @@
   }
   .anuncioAdmin {
     margin-top: 32%;
+  }
+  .SubirPDFMOstrar {
+    width: 40%;
+    height: auto;
+    border-radius: 99px;
+    margin-left: 1%;
+  }
+  .linealSeparador {
+    height: 1px;
+    width: 10vh;
+    background-color: black;
+    margin-bottom: 8%;
+  }
 }
+
+@media screen and (min-width: 601px) and (max-width: 1000px) {
+  .linealSeparador {
+    height: 1px;
+    width: 10vh;
+    background-color: black;
+    margin-bottom: 8%;
+  }
+  .contentRutasExpancioComunicado {
+    display: flex;
+    flex-direction: column;
+  }
+  .iconPublicatio {
+    padding-top: 15%;
+  }
+  .publicidad {
+    width: 25%;
+    height: auto;
+  }
+  .galeriaGrid{
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  }
+  .popChatDelAdmin {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #e3f2fd;
+    width: 100%;
+    height: 100%;
+  }
+  .conversacionCliente {
+    z-index: 99;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: -10vh;
+  }
+  .contentChatPublicidad {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 10px;
+    background-color: #e3f2fd;
+    height: 83vh;
+    width: 100%;
+    padding-top: 15vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9;
+  }
+  .chatDelAdministrador {
+    padding: 10px;
+    width: 90%;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    color: white;
+    background-color: #007bff;
+    margin-left: 2%;
+  }
+  .clienteReflejadoEnScroll {
+    width: 100%;
+    height: 100vh;
+    background-color: #e3f2fd;
+    overflow-y: auto;
+  }
+  .chatear {
+    position: relative;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 7%;
+  }
+  .contentChatear{
+    position: fixed;
+  }
+  .cartasContenExterior {
+    width: 78%;
+  }
 }

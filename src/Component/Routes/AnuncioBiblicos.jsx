@@ -93,7 +93,7 @@ export default function AnuncioBiblicos() {
                     <header className="encabezado">
                         <div className="namePage">
                             <h3>FUNDACION CENTRO MISIONERO EMPRESARIAL</h3>
-                            {/* <p>Manos que Ayudan</p> */}
+                            <p>Manos que Ayudan</p>
                         </div>
                         <div onClick={abrirlogoPersonaRegistradamotrarCompleto} className="resgistradoLogoFundaMostrar">
                             <img src={logoFundacion} />

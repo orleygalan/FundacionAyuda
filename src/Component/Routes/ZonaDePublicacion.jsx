@@ -134,6 +134,7 @@ export default function ZonadePublicacion() {
                         <header className="encabezado">
                             <div className="namePage">
                                 <h3>FUNDACION CENTRO MISIONERO EMPRESARIAL</h3>
+                                <p>Manos que Ayudan</p>
                             </div>
                             <div onClick={mostrarLogoCompleto} className="resgistradoLogoFundaMostrar">
                                 <img src={logoFundacion} alt="Logo Fundación" />
@@ -202,7 +203,7 @@ export default function ZonadePublicacion() {
                                                 <FontAwesomeIcon className="salirDeSubirFoto" onClick={quieresSalir} icon={faXmark} />
                                                 <h5>Subir Fotos y videos</h5>
                                             </div>
-                                            <button className="publicarFotoBtn" style={{color:'black'}} onClick={handleUpload} disabled={!files || uploading}> <h5>Publicar</h5> </button>
+                                            <button className="publicarFotoBtn" style={{ color: 'black' }} onClick={handleUpload} disabled={!files || uploading}> <h5>Publicar</h5> </button>
                                         </header>
                                         <textarea className="escribirUnComentarioAlPublicarFoto" value={comment} onChange={(e) => setComment(e.target.value)} placeholder="Escribe un comentario..." />
                                         <div className="imagenaSubir">
