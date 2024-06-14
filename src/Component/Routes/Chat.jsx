@@ -139,11 +139,7 @@ export default function Chat() {
                     <header className="encabezado">
                         <div className="namePage">
                             <h3>FUNDACION CENTRO MISIONERO EMPRESARIAL</h3>
-<<<<<<< HEAD
                             {/* <p>Manos que Ayudan</p> */}
-=======
-                            <p>Manos que Ayudan</p>
->>>>>>> 7871276d71fdc7adb73963344f7f29ef56fc835a
                         </div>
                         <div onClick={mostrarLogoCompleto} className="resgistradoLogoFundaMostrar">
                             <img src={logoFundacion} alt="Logo Fundación" />
@@ -215,10 +211,7 @@ export default function Chat() {
                                             type="text"
                                             value={newMessage}
                                             onChange={(e) => setNewMessage(e.target.value)}
-<<<<<<< HEAD
                                             placeholder="Preguntame lo que Gustes..."
-=======
->>>>>>> 7871276d71fdc7adb73963344f7f29ef56fc835a
                                         />
                                         <FontAwesomeIcon className="Enviar" onClick={enviarMensaje} icon={faPaperPlane} />
                                     </div>
