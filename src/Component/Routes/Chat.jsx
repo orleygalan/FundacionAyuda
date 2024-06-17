@@ -175,7 +175,7 @@ export default function Chat() {
                             </div>
                         ))}
                         {userId !== ADMIN_ID && chats.length === 0 && (
-                            <button onClick={iniciarNuevoChat}>Iniciar Nuevo Chat</button>
+                            <button className="iniciarNuevoChat" onClick={iniciarNuevoChat}>Iniciar Nuevo Chat</button>
                         )}
                     </div>
                     <div className="popChatDelAdmin">

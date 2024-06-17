@@ -123,23 +123,23 @@ export default function MenuBrowserRouter() {
                                     </div>
                                 )}
                             </div>
-                        </div>
-                        <div className="ReactRouterDom">
-                            {
-                                LinkMenuBrowser.map((sacar, index) => (
-                                    <div key={index} className="LinkMenuSacar">
-                                        {(sacar.clienteEspecial && auth.currentUser && AuthorizeUserUid.includes(auth.currentUser.uid)) || !sacar.clienteEspecial ? (
-                                            <Link to={sacar.href}>
-                                                <h5>{sacar.name}</h5>
-                                            </Link>
-                                        ) : (
-                                            <Link to={sacar.href}>
-                                                <h5>{sacar.name2}</h5>
-                                            </Link>
-                                        )}
-                                    </div>
-                                ))
-                            }
+                            <div className="ReactRouterDom">
+                                {
+                                    LinkMenuBrowser.map((sacar, index) => (
+                                        <div key={index} className="LinkMenuSacar">
+                                            {(sacar.clienteEspecial && auth.currentUser && AuthorizeUserUid.includes(auth.currentUser.uid)) || !sacar.clienteEspecial ? (
+                                                <Link to={sacar.href}>
+                                                    <h5>{sacar.name}</h5>
+                                                </Link>
+                                            ) : (
+                                                <Link to={sacar.href}>
+                                                    <h5>{sacar.name2}</h5>
+                                                </Link>
+                                            )}
+                                        </div>
+                                    ))
+                                }
+                            </div>
                         </div>
                     </div>
                 )}

@@ -1,13 +1,9 @@
 import { useEffect, useState } from "react";
 import { onAuthStateChanged } from "firebase/auth";
 import { auth } from "../confgSDK/SDK";
-// import familiaFundacion from "../img/familiaFundacion.png"
-// import videoPresentacion from "../img/WhatsApp Video 2024-05-23 at 11.21.50 PM.mp4"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faXmark } from "@fortawesome/free-solid-svg-icons";
 import logoFundacion from '../img/logoFundacion1.png';
-import SesionDirecto from "../reutilizarPartes/SesionDirecto"
-// import Informacion from "../Routes/InformacionFundacion"
 import { useNavigate } from "react-router";
 
 
@@ -15,8 +11,6 @@ export default function RevisionUsuario() {
 
     const [logedIn, setLogedIn] = useState(false);
     const [imgLogoMostrarCompleto, setImgLogoMostrarCompleto] = useState(false);
-    const [uneteANostros, setUneteANosotros] = useState(false);
-    const [informacionFundacion, setInformacionFundacion] = useState(false);
 
     useEffect(() => {
         const unsubcribe = onAuthStateChanged(auth, user => {
@@ -37,15 +31,16 @@ export default function RevisionUsuario() {
         setImgLogoMostrarCompleto(false);
     };
 
-    const handleClickUnete = () =>{
-        setUneteANosotros(true);
+    const handleClicUnete = () =>{
+        uneteNosotros('/mainHomen');
     }
     const handleClickInformacionFunda = () =>{
-     masInformacion('/informacioFundacion')
+        masInformacion('/informacioFundacion')
     }
-
+    
+    const uneteNosotros = useNavigate();
     const masInformacion = useNavigate();
-
+    
     return (
         <div className='mainContent'>
             <header className="encabezado">
@@ -74,16 +69,10 @@ export default function RevisionUsuario() {
                         <p >La Fundación Centro Misionero Empresarial Manos que ayudan se dedica a brindar apoyo y oportunidades de crear espacios recreativos.</p>
                         <div className="btnsInfor">
                         <button className="btnUno" onClick={handleClickInformacionFunda} >Más Información</button>
-                           {logedIn ? (<></>):( <button className="btnDos" onClick={handleClickUnete}>Unete a Nosotros</button>)}
+                           {logedIn ? (<></>):( <button className="btnDos" onClick={handleClicUnete}>Unete a Nosotros</button>)}
                         </div>
                     </div>
                 </div>
-                {/* {informacionFundacion && (
-                    <Informacion />
-                )} */}
-                {uneteANostros && (
-                    <SesionDirecto />
-                )}
                 <div className="forma2">
                     <div className="forma2Sector1">
                         <h1>Sobre Nosotros</h1>

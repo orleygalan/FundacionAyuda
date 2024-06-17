@@ -462,28 +462,21 @@
   width: 33vh;
   height: 18vh;
   background-color: white;
-  border-radius: 5px 5px 230px 230px;
+  border-radius: 5px 5px 1000px 1000px;
   position: absolute;
   bottom: 0;
-}
-.faGoogle {
-  font-size: 290%;
-  padding-left: 43%;
-  padding-top: 16%;
+  display: grid;
+  place-items: center;
 }
 .card2 {
   width: 33vh;
   height: 18vh;
   background-color: white;
-  border-radius: 230px 230px 5px 5px;
+  border-radius: 1000px 1000px 5px 5px;
   position: absolute;
   top: 0;
-}
-.faFacebook {
-  font-size: 290%;
-  padding-left: 44%;
-  padding-top: 20%;
-  color: blue;
+  display: grid;
+  place-items: center;
 }
 .btnclose {
   width: 5vh;
@@ -531,25 +524,25 @@
 .ReactRouterDom {
   position: absolute;
   width: 100%;
-  top: 15vh;
+  top: auto;
   left: 7%;
   z-index: 20;
 }
 .dataUser {
-  width: 47%;
+  width: 90%;
   height: auto;
   background-color: #007bff;
-  margin-top: 30%;
-  margin-left: 30%;
+  margin-top: 18%;
+  margin-left: 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .userName {
   margin: 0;
   color: #ffffff;
-  margin-top: -18px;
 }
 .faEllipsisVertical {
-  position: absolute;
-  right: 3%;
   background-color: #007bff;
   border-color: #007bff;
   padding: 8%;
@@ -571,13 +564,9 @@
   color: white;
 }
 .usuarioMenu img {
-  width: 18%;
+  width: 15%;
   height: auto;
   border-radius: 100vh;
-  position: absolute;
-  top: 8vh;
-  left: 3%;
-  z-index: 21;
 }
 .letraIniciodeSesion {
   text-align: center;
@@ -651,6 +640,7 @@
   place-items: center;
   display: grid;
   background-color: #d6f2ff;
+  padding-bottom: 4%;
 }
 .navegacionAdmDeZonaPublicacion {
   overflow-y: hidden;
@@ -935,11 +925,6 @@
   place-items: center;
   display: grid;
 }
-.mostrarImgLogoConEfectoGrande img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
 .commentPubliAdmin {
   width: 100%;
   height: auto;
@@ -1146,6 +1131,8 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   color: white;
   background-color: #007bff;
+  position: absolute;
+  top: 12%;
 }
 .datosChatUsuario {
   display: flex;
@@ -1159,6 +1146,16 @@
 }
 .chatDelAdministrador:hover {
   opacity: 0.7;
+}
+.fotoDelosUsuarios{
+width: 22%;
+}
+.iniciarNuevoChat{
+  position: absolute;
+  width: 90%;
+  top: 15%;
+  left: 5%;
+  background-color: #1eadff;
 }
 
 /* Curriculum.css */
@@ -1187,11 +1184,14 @@
   margin-left: 1%;
 }
 .SubirPDFMOstrar button {
-  width: 100%;
+  width: auto;
   height: auto;
   background-color: #1eadff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   color: black;
+  position: absolute;
+  top: 20%;
+  right: 3%;
 }
 .ContentpdfcuRRiculum {
   display: flex;
@@ -1201,14 +1201,15 @@
   position: absolute;
   top: 0;
   left: 1%;
-  padding-top: 34vh;
+  padding-top: 20%;
   background-color: #d6f2ff;
 }
 .tituloCurriculum {
   position: absolute;
-  top: 23vh;
+  top: 29%;
   left: 2%;
   color: black;
+  margin: 0;
 }
 .cargadorSeñal {
   position: fixed;
@@ -1561,14 +1562,16 @@
   height: 10vh;
   position: absolute;
   top: 1%;
+  width: 100%;
 }
 .adminSubePublicacionFotoAnuncioBiblicos {
   width: 10vh;
   height: 10vh;
+  align-items: center;
 }
 .adminSubePublicacionFotoAnuncioBiblicos img {
-  width: auto;
-  height: 100%;
+  width: 100%;
+  height: auto;
   border-radius: 200px;
 }
 .fraseAnuncioBriblicosVer {
@@ -1617,7 +1620,15 @@
   overflow-y: hidden;
 }
 .mostrarImgLogoConEfectoGrande {
-  width: 80vh;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+}
+.mostrarImgLogoConEfectoGrande img {
+  width: auto;
+  height: auto;
+  object-fit: cover;
 }
 /* donacion css  */
 
@@ -1840,10 +1851,8 @@
     left: 0;
     z-index: 19;
   }
-  .mostrarImgLogoConEfectoGrande {
-    width: 80%;
-    height: 40%;
-    object-fit: cover;
+  .mostrarImgLogoConEfectoGrande img{
+    width: 100%;
   }
   .forma1 {
     width: 100%;
@@ -2011,7 +2020,7 @@
     top: 0;
     left: 1%;
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-    padding-top: 34vh;
+    padding-top: 50%;
     place-items: center;
   }
   .comentContentPubli textarea {
@@ -2188,18 +2197,18 @@
     top: 4.5vh;
     height: 5vh;
   }
-  .card2 {
+  /* .card2 {
     width: 33vh;
     height: 18vh;
     background-color: white;
-    border-radius: 230px 230px 5px 5px;
+    border-radius: 500px 500px 5px 5px;
   }
   .card1 {
     width: 33vh;
     height: 18vh;
     background-color: white;
     border-radius: 5px 5px 230px 230px;
-  }
+  } */
   .card2:hover {
     display: none;
   }
@@ -2321,6 +2330,13 @@
     background-color: black;
     margin-bottom: 8%;
   }
+  .forma1 {
+    margin-top: 11vh;
+  }
+  .tituloCurriculum{
+    top: 26%;
+  }
+  
 }
 
 @media screen and (min-width: 601px) and (max-width: 1000px) {
@@ -2402,4 +2418,68 @@
   .cartasContenExterior {
     width: 78%;
   }
+  .navegacionUsuarioAdm {
+    padding-top: 10%;
+  }
+  .contentCardExterior{
+    padding-top: 10%;
+  }
+  .chatDelAdministrador{
+    top: 8%;
+  }
+  .iniciarNuevoChat{
+    top: 8%;
+  }
+  .dataUser{
+    margin-top: 40%;
+  }
+  .popUpMenuBurger{
+    width: 23%;
+  }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1400px){
+  
+  .resgistradoLogoFundaMostrar img {
+    width: 4%;
+  }
+  .forma1{
+    margin-top: 10%;
+  }
+  .navegacionUsuarioAdm {
+    padding-top: 10%;
+  }
+  .contentCardExterior{
+    padding-top: 10%;
+  }
+  .anuncio{
+    width: 80%;
+  }
+  .linealSeparador{
+    width: 10vh;
+  }
+  .subirPublicacionCurrilum{
+    top: 4%;
+  }
+  .tituloCurriculum{
+    top: 35%;
+  }
+  .contentInnformacionFundaPublicidad{
+    padding-top: 8vh;
+  }
+  .popUpMenuBurger{
+    width: 23%;
+  }
+  .ContentpdfcuRRiculum{
+    padding-top: 15%;
+  }
+  .contactosInformacionFundacion {
+  margin-top: 3%;
+}
+}
+
+@media screen and (min-width: 300px) and (max-width: 525px){
+.forma1{
+  margin-top: 13vh;
+}
 }
