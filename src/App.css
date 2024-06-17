@@ -513,6 +513,7 @@
   top: 0;
   left: 0;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  padding-top: 5%;
 }
 .LinkMenuSacar h5 {
   color: black;
@@ -1131,8 +1132,6 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   color: white;
   background-color: #007bff;
-  position: absolute;
-  top: 12%;
 }
 .datosChatUsuario {
   display: flex;
