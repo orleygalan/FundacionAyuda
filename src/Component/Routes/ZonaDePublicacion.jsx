@@ -26,7 +26,11 @@ export default function ZonadePublicacion() {
 
     useEffect(() => {
         const unsubscribe = onAuthStateChanged(auth, user => {
-            setLoggedIn(!!user);
+            if (user) {
+                setLoggedIn(true);
+            } else {
+                setLoggedIn(false);
+            }
         });
         return unsubscribe;
     }, []);
@@ -66,8 +70,10 @@ export default function ZonadePublicacion() {
                     name: fileName,
                     url: downloadURL,
                     metadatoComment: comment,
+                    type: file.type,
                     timestamp: serverTimestamp()
                 });
+
                 return { name: fileName, url: downloadURL, type: file.type };
             }));
 
@@ -83,7 +89,7 @@ export default function ZonadePublicacion() {
         }
     };
 
-    const { getRootProps, getInputProps } = useDropzone({ onDrop, multiple: false });
+    const { getRootProps, getInputProps } = useDropzone({ onDrop, multiple: false, accept: 'image/*,video/*' });
 
     const closePopUp = () => {
         setFiles([]);
@@ -212,10 +218,9 @@ export default function ZonadePublicacion() {
                                                     {file.type.startsWith("video/") ? (
                                                         <video controls className="videosSubidos">
                                                             <source src={URL.createObjectURL(file)} type={file.type} />
-                                                            Tu navegador no soporta la etiqueta de video.
                                                         </video>
                                                     ) : (
-                                                        <img src={URL.createObjectURL(file)} alt={`Subido ${index + 1}`} />
+                                                        <img src={URL.createObjectURL(file)} />
                                                     )}
                                                 </div>
                                             ))}
