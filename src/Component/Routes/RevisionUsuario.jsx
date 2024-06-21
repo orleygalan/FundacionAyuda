@@ -45,8 +45,8 @@ export default function RevisionUsuario() {
         <div className='mainContent'>
             <header className="encabezado">
                 <div className="namePage">
-                    <h3>FUNDACION CENTRO MISIONERO EMPRESARIAL</h3>
-                    <p>Manos que Ayudan</p>
+                    <h3>FUNDACION CENTRO DE INFLUENCIA MISIONERO EMPRESARIAL</h3>
+                    <h4>MANOS QUE AYUDAN</h4>
                 </div>
                 {logedIn && (
                     <div onClick={mostrarLogoCompleto} className="resgistradoLogoFundaMostrar">
@@ -65,8 +65,8 @@ export default function RevisionUsuario() {
             <div className="contenedorVistaPrevia">
                 <div className="forma1">
                     <div className="forma1Texto1">
-                        <h1>Transformando Vidas a través de la ayuda y el servicio</h1>
-                        <p >La Fundación Centro Misionero Empresarial Manos que ayudan se dedica a brindar apoyo y oportunidades de crear espacios recreativos.</p>
+                        <h1>Transformando Vidas a Través de la Gestión Social  Comunitaria</h1>
+                        <p >La Fundación Centro de Influencia Misionero Empresarial Manos que Ayudan se dedica a brindar apoyo y oportunidades de crear espacios recreativos a la familia en las arias físicas,  mental y espiritual.</p>
                         <div className="btnsInfor">
                         <button className="btnUno" onClick={handleClickInformacionFunda} >Más Información</button>
                            {logedIn ? (<></>):( <button className="btnDos" onClick={handleClicUnete}>Unete a Nosotros</button>)}
@@ -77,7 +77,7 @@ export default function RevisionUsuario() {
                     <div className="forma2Sector1">
                         <h1>Sobre Nosotros</h1>
                         <p>
-                            La Fundación Centro Misionero Empresarial Manos que Ayudan
+                            La Fundación Centro de Influencia Misionero Empresarial Manos que Ayudan
                             es una organización sin fines de lucro dedicada a generar
                             oportunidades para la comunidad en general, a través de programas
                             de desarrollo sostenible educación .
@@ -182,16 +182,16 @@ export default function RevisionUsuario() {
                 <div className="forma4">
                     <div className="forma4Sesion1">
                         <b>
-                            En la Fundación Centro Misionero Empresarial Manos que Ayudan,
+                            En la Fundación Centro de Influencia Misionero Empresarial Manos que Ayudan,
                             buscamos conformar un sistema de evangelización como medio para grandes ciudades.
                         </b>
                     </div>
                 </div>
                 <div className="forma5">
-                    <b> Fundación Centro Misionero Empresarial Manos que Ayudan </b>
-                    <div className="PoliticaSercicio">
-                        <b> Politica de privacidad y Términos de servicio </b>
-                    </div>
+                    <b> Fundación Centro de Influencia Misionero Empresarial Manos que Ayudan </b>
+                    {/* <div className="PoliticaSercicio"> */}
+                        <b>Te Brindamos la Mano</b>
+                    {/* </div> */}
                 </div>
             </div>
         </div>

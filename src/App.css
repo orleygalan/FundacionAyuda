@@ -26,9 +26,6 @@
   right: 2%;
   top: 13%;
 }
-.RegistroBarraFundaLogo img {
-  width: 80vh;
-}
 .contentRegistroMostrarCompletoLogo {
   width: 100%;
   height: 100vh;
@@ -42,7 +39,7 @@
 .RegisterCerrarFundacloseFotoCompleta {
   position: absolute;
   top: 9%;
-  left: 18%;
+  left: 2%;
   font-size: 180%;
   color: #ffffff;
 }
@@ -68,7 +65,7 @@
   font-style: normal;
   color: #ffffff;
 }
-.namePage p {
+.namePage h4 {
   margin: 0;
   font-family: "Yeseva One", serif;
   font-weight: 500;
@@ -415,7 +412,9 @@
   justify-content: center;
   gap: 15%;
   padding-top: 3%;
+  padding-bottom: 3%;
   margin-bottom: 3%;
+  text-align: center;
 }
 .forma5 b {
   margin: 0;
@@ -734,11 +733,11 @@
 .publicarFotoBtn h5 {
   margin: 0;
 }
-.videosContenidoPublicado{
+.videosContenidoPublicado {
   width: 100%;
   background: #333;
 }
-.videosContenidoPublicado source{
+.videosContenidoPublicado source {
   width: 100%;
   height: 100%;
 }
@@ -992,14 +991,20 @@
 .contentChat {
   width: 100%;
 }
+.fotoDelAbministrador{
+  width: 7vh;
+}
 .fotoDelAbministrador img {
-  width: 60%;
+  width: 70%;
   height: auto;
   border-radius: 100px;
   margin-left: 3%;
 }
+.fotoDelosUsuarios{
+  width: 7vh;
+}
 .fotoDelosUsuarios img {
-  width: 43%;
+  width: 80%;
   height: auto;
   border-radius: 100px;
   margin-left: 25%;
@@ -1008,6 +1013,7 @@
 }
 .chatDelAdministrador h5 {
   margin: 0;
+  padding-left: 6%;
 }
 .popChatDelAdmin {
   position: absolute;
@@ -1026,7 +1032,7 @@
 }
 .barraChat {
   background-color: #007bff;
-  width: 96%;
+  width: 62%;
   height: auto;
   align-items: center;
   display: flex;
@@ -1048,14 +1054,14 @@
 }
 .clienteReflejadoEnScroll {
   width: 100%;
-  height: 70vh;
+  height: 78vh;
   background-color: #b8e3ff;
   overflow-y: auto;
 }
 .scrollChatearCoversation {
   width: 100%;
   height: auto;
-  margin-top: 15%;
+  margin-top: 18%;
 }
 .mensajeEnviado {
   background-color: #78cdff;
@@ -1124,9 +1130,8 @@
   flex-direction: column-reverse;
   gap: 10px;
   background-color: #b8e3ff;
-  height: 85vh;
+  height: 100vh;
   width: 30%;
-  padding-top: 15vh;
   position: absolute;
   top: 0;
   left: 0;
@@ -1140,6 +1145,7 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   color: white;
   background-color: #007bff;
+  margin-bottom: 2%;
 }
 .datosChatUsuario {
   display: flex;
@@ -1154,15 +1160,18 @@
 .chatDelAdministrador:hover {
   opacity: 0.7;
 }
-.fotoDelosUsuarios{
-width: 22%;
-}
-.iniciarNuevoChat{
+.iniciarNuevoChat {
   position: absolute;
   width: 90%;
   top: 15%;
   left: 5%;
   background-color: #1eadff;
+}
+.scrollUsuarios{
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  padding-top: 12vh;
 }
 
 /* Curriculum.css */
@@ -1197,7 +1206,7 @@ width: 22%;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   color: black;
   position: absolute;
-  top: 20%;
+  top: 10vh;
   right: 3%;
 }
 .ContentpdfcuRRiculum {
@@ -1337,6 +1346,9 @@ width: 22%;
   align-items: center;
   z-index: 1001;
   flex-direction: column;
+}
+.mostrarCompletaFotoGaleria img {
+  width: 100%;
 }
 .closeIcon {
   position: absolute;
@@ -1646,7 +1658,10 @@ width: 22%;
   background-color: #1eadff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
-  padding-top: 13%;
+  margin-top: 28%;
+}
+.terminosCOndicionesFormuDona b{
+  width: 60vh;
 }
 .contentDonacionScroll {
   overflow-y: hidden;
@@ -1742,9 +1757,15 @@ width: 22%;
   display: flex;
   align-items: center;
 }
-.formularioDonacion p {
+.formularioDonacion .LimiteMaxDona {
   margin: 0;
   color: red;
+}
+.terminosCOndicionesFormuDona{
+  flex-direction: column;
+}
+.todosLosTerminos{
+  max-width: 50vh;
 }
 .aviso {
   width: 247px;
@@ -1858,7 +1879,7 @@ width: 22%;
     left: 0;
     z-index: 19;
   }
-  .mostrarImgLogoConEfectoGrande img{
+  .mostrarImgLogoConEfectoGrande img {
     width: 100%;
   }
   .forma1 {
@@ -1907,8 +1928,11 @@ width: 22%;
   .forma3Sector2 {
     width: 96%;
   }
+  .forma4Sesion1 b {
+    font-size: 70%;
+  }
   .forma5 {
-    gap: 0;
+    gap: 2;
   }
   /* informacion Sobre la Fundacion  */
   .contactosInformacionFundacion {
@@ -1950,7 +1974,7 @@ width: 22%;
   }
   .popUpMenuBurger {
     position: fixed;
-    width: 35vh;
+    width: 28vh;
     height: 100vh;
     background-color: #007bff;
     z-index: 20;
@@ -2157,9 +2181,7 @@ width: 22%;
     flex-direction: column-reverse;
     gap: 10px;
     background-color: #e3f2fd;
-    height: 83vh;
     width: 100%;
-    padding-top: 15vh;
     position: absolute;
     top: 0;
     left: 0;
@@ -2180,6 +2202,9 @@ width: 22%;
     height: 90vh;
     background-color: #e3f2fd;
     overflow-y: auto;
+  }
+  .barraChat{
+    width: 100%;
   }
   .chatear {
     position: fixed;
@@ -2271,6 +2296,7 @@ width: 22%;
   }
   .contentDonacionFormu {
     padding: 10px;
+    margin-top: 38%;
   }
 
   .popupContent {
@@ -2340,10 +2366,28 @@ width: 22%;
   .forma1 {
     margin-top: 11vh;
   }
-  .tituloCurriculum{
+  .tituloCurriculum {
     top: 26%;
   }
-  
+  .namePage h4 {
+    width: 70%;
+    font-size: 90%;
+    height: auto;
+    display: grid;
+    place-items: center;
+    align-items: center;
+    font-weight: 900;
+  }
+  .forma5 b {
+    font-size: 50%;
+  }
+  .todosLosTerminos{
+    max-width: 30vh;
+  }
+  .terminosCOndicionesFormuDona b{
+    width: 262px;
+  }
+
 }
 
 @media screen and (min-width: 601px) and (max-width: 1000px) {
@@ -2364,7 +2408,7 @@ width: 22%;
     width: 25%;
     height: auto;
   }
-  .galeriaGrid{
+  .galeriaGrid {
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   }
   .popChatDelAdmin {
@@ -2387,9 +2431,7 @@ width: 22%;
     flex-direction: column-reverse;
     gap: 10px;
     background-color: #e3f2fd;
-    height: 83vh;
     width: 100%;
-    padding-top: 15vh;
     position: absolute;
     top: 0;
     left: 0;
@@ -2419,7 +2461,7 @@ width: 22%;
     align-items: center;
     gap: 7%;
   }
-  .contentChatear{
+  .contentChatear {
     position: fixed;
   }
   .cartasContenExterior {
@@ -2428,65 +2470,126 @@ width: 22%;
   .navegacionUsuarioAdm {
     padding-top: 10%;
   }
-  .contentCardExterior{
+  .contentCardExterior {
     padding-top: 10%;
   }
-  .chatDelAdministrador{
+  .chatDelAdministrador {
     top: 8%;
   }
-  .iniciarNuevoChat{
+  .iniciarNuevoChat {
     top: 8%;
   }
-  .dataUser{
+  .dataUser {
     margin-top: 40%;
   }
-  .popUpMenuBurger{
+  .popUpMenuBurger {
     width: 23%;
   }
+  .forma5 b {
+    font-size: 50%;
+  }
+  .forma4Sesion1 b {
+    font-size: 70%;
+  }
 }
-
-@media screen and (min-width: 900px) and (max-width: 1400px){
-  
+@media screen and (min-width: 770px) and (max-width: 999px){
+.barraChat{
+  width: 100%;
+}
+.scrollChatearCoversation{
+  margin-top: 10%;
+}
+}
+@media screen and (min-width: 900px) and (max-width: 1400px) {
   .resgistradoLogoFundaMostrar img {
     width: 4%;
   }
-  .forma1{
+  .forma1 {
     margin-top: 10%;
   }
   .navegacionUsuarioAdm {
     padding-top: 10%;
   }
-  .contentCardExterior{
+  .contentCardExterior {
     padding-top: 10%;
   }
-  .anuncio{
+  .anuncio {
     width: 80%;
   }
-  .linealSeparador{
+  .linealSeparador {
     width: 10vh;
   }
-  .subirPublicacionCurrilum{
+  .subirPublicacionCurrilum {
     top: 4%;
   }
-  .tituloCurriculum{
+  .tituloCurriculum {
     top: 35%;
   }
-  .contentInnformacionFundaPublicidad{
+  .contentInnformacionFundaPublicidad {
     padding-top: 8vh;
   }
-  .popUpMenuBurger{
+  .popUpMenuBurger {
     width: 23%;
   }
-  .ContentpdfcuRRiculum{
+  .ContentpdfcuRRiculum {
     padding-top: 15%;
   }
   .contactosInformacionFundacion {
-  margin-top: 3%;
-}
+    margin-top: 3%;
+  }
 }
 
-@media screen and (min-width: 300px) and (max-width: 525px){
-.forma1{
-  margin-top: 13vh;
+@media screen and (min-width: 300px) and (max-width: 350px) {
+  .forma1 {
+    margin-top: 15vh;
+  }
+  .forma1Texto1 {
+    width: 90%;
+  }
+  .navegacionUsuarioAdm {
+    padding-top: 18vh;
+  }
+  .adminFundaAyudaSubeFotoNombre {
+    font-size: 55%;
+  }
+  .contentCardExterior{
+    margin-top: 8vh;
+  }
+  .SubirPDFMOstrar button {
+    top: 8vh;
+  }
+  .scrollUsuarios{
+    padding-top: 8vh;
+  }
+  .barraChat{
+    width: 100%;
+  }
 }
+@media screen and (min-width: 351px) and (max-width: 410px) {
+  .navegacionUsuarioAdm {
+    padding-top: 18vh;
+  }
+  .adminFundaAyudaSubeFotoNombre {
+    font-size: 55%;
+  }
+  .contentCardExterior{
+    margin-top: 5vh;
+  }
+  .SubirPDFMOstrar button {
+    top: 68%;
+  }
+  .scrollUsuarios {
+    padding-top: 14vh;
+  }
+  .barraChat{
+    width: 100%;
+  }
+}
+@media screen and (min-width: 412px) and (max-width: 460px) {
+  .SubirPDFMOstrar button {
+    top: 2vh;
+  }
+  .barraChat{
+    width: 100%;
+  }
 }

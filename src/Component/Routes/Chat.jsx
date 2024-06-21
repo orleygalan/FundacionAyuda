@@ -7,7 +7,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import logoFundacion from '../img/logoFundacion1.png';
 import { collection, doc, addDoc, onSnapshot, serverTimestamp, query, where, orderBy, setDoc } from 'firebase/firestore';
 
-const ADMIN_ID = 'UQxvX9IejVW8OOjF2KMek9Jti7M2';
+const ADMIN_ID = ['UQxvX9IejVW8OOjF2KMek9Jti7M2', '7WIvYvqLUMVLYhkw0CBZaXvDH012', 'WsbosRG1AbR29dj3zPjlQ1HDEtG2'];
 
 export default function Chat() {
     const [loggedIn, setLoggedIn] = useState(false);
@@ -30,7 +30,7 @@ export default function Chat() {
                 setUserId(user.uid);
                 setUserEmail(user.email);
                 setUserDisplayName(user.displayName);
-                if (user.uid !== ADMIN_ID) {
+                if (!ADMIN_ID.includes(user.uid)) {
                     fetchUserChats(user.uid);
                 } else {
                     fetchAllChats();
@@ -125,7 +125,7 @@ export default function Chat() {
         const user = auth.currentUser;
         const nuevoChatRef = doc(collection(db, 'chats'));
         await setDoc(nuevoChatRef, {
-            clientes: [userId, ADMIN_ID],
+            clientes: [userId, ADMIN_ID[0]],
             userName: userDisplayName,
             userPhotoUrl: user.photoURL
         });
@@ -138,8 +138,8 @@ export default function Chat() {
                 <div className="definicionContentChat">
                     <header className="encabezado">
                         <div className="namePage">
-                            <h3>FUNDACION CENTRO MISIONERO EMPRESARIAL</h3>
-                            <p>Manos que Ayudan</p>
+                        <h3>FUNDACION CENTRO DE INFLUENCIA MISIONERO EMPRESARIAL</h3>
+                        <h4>MANOS QUE AYUDAN</h4>
                         </div>
                         <div onClick={mostrarLogoCompleto} className="resgistradoLogoFundaMostrar">
                             <img src={logoFundacion} alt="Logo Fundación" />
@@ -154,36 +154,38 @@ export default function Chat() {
                         )}
                     </header>
                     <div className="contentChatPublicidad">
-                        {chats.map(chat => (
-                            <div key={chat.id} onClick={() => handleEntrada(chat.id)} className="chatDelAdministrador">
-                                {userId === ADMIN_ID && (
-                                    <div className="datosChatUsuario">
-                                        <div className="fotoDelAbministrador">
-                                            <img src={chat.userPhotoUrl} alt="" />
+                        <div className="scrollUsuarios">
+                            {chats.map(chat => (
+                                <div key={chat.id} onClick={() => handleEntrada(chat.id)} className="chatDelAdministrador">
+                                    {ADMIN_ID.includes(userId) && (
+                                        <div className="datosChatUsuario">
+                                            <div className="fotoDelAbministrador">
+                                                <img src={chat.userPhotoUrl} alt="" />
+                                            </div>
+                                            <h5>{chat.userName}</h5>
                                         </div>
-                                        <h5>{chat.userName}</h5>
-                                    </div>
-                                )}
-                                {userId !== ADMIN_ID && (
-                                    <div className="dataAdminChat">
-                                        <div className="fotoDelosUsuarios">
-                                            <img src={logoFundacion} alt="" />
+                                    )}
+                                    {!ADMIN_ID.includes(userId) && (
+                                        <div className="dataAdminChat">
+                                            <div className="fotoDelosUsuarios">
+                                                <img src={logoFundacion} alt="" />
+                                            </div>
+                                            <h5>Fundación Centro de Influencia Misionero Empresarial Manos que Ayudan</h5>
                                         </div>
-                                        <h5>Manos que Ayudan</h5>
-                                    </div>
-                                )}
-                            </div>
-                        ))}
-                        {userId !== ADMIN_ID && chats.length === 0 && (
-                            <button className="iniciarNuevoChat" onClick={iniciarNuevoChat}>Iniciar Nuevo Chat</button>
-                        )}
+                                    )}
+                                </div>
+                            ))}
+                            {!ADMIN_ID.includes(userId) && chats.length === 0 && (
+                                <button className="iniciarNuevoChat" onClick={iniciarNuevoChat}>Iniciar Nuevo Chat</button>
+                            )}
+                        </div>
                     </div>
                     <div className="popChatDelAdmin">
                         {popChatDelAdmin && selectedChat && (
                             <div className="conversacionCliente">
                                 <div className="barraChat">
                                     <FontAwesomeIcon onClick={handleSalida} className="salirDePopUpChat" icon={faArrowLeft} />
-                                    {userId === ADMIN_ID ? (
+                                    {ADMIN_ID.includes(userId) ? (
                                         <div className="fotoDelosUsuarios">
                                             <img src={selectedChat.userPhotoUrl} alt={selectedChat.userName} />
                                         </div>
@@ -192,7 +194,7 @@ export default function Chat() {
                                             <img src={logoFundacion} alt="Logo Fundación" />
                                         </div>
                                     )}
-                                    <h5 className="nameClienteHablar">{userId === ADMIN_ID ? selectedChat.userName : "Manos que Ayudan"}</h5>
+                                    <h5 className="nameClienteHablar">{ADMIN_ID.includes(userId) ? selectedChat.userName : "Manos que Ayudan"}</h5>
                                 </div>
                                 <div className="clienteReflejadoEnScroll">
                                     <div className="scrollChatearCoversation">

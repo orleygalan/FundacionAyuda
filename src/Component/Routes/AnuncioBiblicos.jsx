@@ -92,8 +92,8 @@ export default function AnuncioBiblicos() {
                 <div className="definicionContent">
                     <header className="encabezado">
                         <div className="namePage">
-                            <h3>FUNDACION CENTRO MISIONERO EMPRESARIAL</h3>
-                            <p>Manos que Ayudan</p>
+                        <h3>FUNDACION CENTRO DE INFLUENCIA MISIONERO EMPRESARIAL</h3>
+                        <h4>MANOS QUE AYUDAN</h4>
                         </div>
                         <div onClick={abrirlogoPersonaRegistradamotrarCompleto} className="resgistradoLogoFundaMostrar">
                             <img src={logoFundacion} />
@@ -123,7 +123,8 @@ export default function AnuncioBiblicos() {
                                         <div className="adminSubePublicacionFotoAnuncioBiblicos">
                                             <img onClick={mostrarLogoCompleto} src={logoFundacion} alt="" />
                                         </div>
-                                        <h5 className="adminFundaAyudaSubeFotoNombre">FUNDACION CENTRO MISIONERO EMPRESARIAL</h5>
+                                        <h5 className="adminFundaAyudaSubeFotoNombre">
+                                        FUNDACION CENTRO DE INFLUENCIA MISIONERO EMPRESARIAL MANOS QUE AYUDAN</h5>
                                     </div>
                                     <div className="anuncioBiblicoFrase" style={{ backgroundColor: anuncio.color }}>
                                         <div className="apoyoScrollDerrame">

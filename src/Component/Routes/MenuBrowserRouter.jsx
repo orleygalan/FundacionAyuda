@@ -56,7 +56,7 @@ export default function MenuBrowserRouter() {
         }
     ]
 
-    const AuthorizeUserUid = ['UQxvX9IejVW8OOjF2KMek9Jti7M2', '7WIvYvqLUMVLYhkw0CBZaXvDH012'];
+    const AuthorizeUserUid = ['UQxvX9IejVW8OOjF2KMek9Jti7M2', '7WIvYvqLUMVLYhkw0CBZaXvDH012', 'WsbosRG1AbR29dj3zPjlQ1HDEtG2'];
 
 
     const [popUpMenuBurge, setPopUpMenuBurge] = useState(false);

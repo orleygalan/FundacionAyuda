@@ -23,20 +23,24 @@ export default function DonacionFormu() {
     const [termsAccepted, setTermsAccepted] = useState(false);
     const [showPopup, setShowPopup] = useState(false);
     const [confirmAccepted, setConfirmAccepted] = useState(false);
+    const [aceptarTerminos, setAceptarTerminos] = useState(false);
+    const [nombreDonante, setNombreDonante] = useState(false);
 
     // Manejar la autenticación de los usuarios
     useEffect(() => {
         const unsubcribe = onAuthStateChanged(auth, user => {
             if (user) {
                 setlogedIn(true);
+                setNombreDonante(user.displayName);
             } else {
                 setlogedIn(false);
+                setNombreDonante(false);
             }
         });
         return unsubcribe;
     }, []);
 
-   //Actualiza todos los valores ingresados en el formulario input
+    //Actualiza todos los valores ingresados en el formulario input
     const handleChange = (e) => {
         setFormData({
             ...formData,
@@ -70,12 +74,10 @@ export default function DonacionFormu() {
         setImgLogoMostrarCompleto(false);
     };
 
-    //mostrar un mensaje de agradecimiento y reinicioar o vaciar los input y los terminos y condiciones
+    //reinicioar o vaciar los input y los terminos y condiciones
     const handlePopupAccept = () => {
-        if (confirmAccepted) {
             setShowPopup(false);
-            alert("¡Gracias por su donación!");
-            
+
             setFormData({
                 nombre: "",
                 apellidos: "",
@@ -88,7 +90,6 @@ export default function DonacionFormu() {
             });
             setTermsAccepted(false);
             setConfirmAccepted(false);
-        }
     };
 
     //verificacion de rastreo para no exceder el limite de lacanntidad de plata
@@ -104,14 +105,18 @@ export default function DonacionFormu() {
         }
     };
 
+    const leerTerminosCondiciones = () => {
+        setAceptarTerminos(!aceptarTerminos);
+    }
+
     return (
         <div className="contentDonacionFormu">
             {logedIn ? (
                 <div>
                     <header className="encabezado">
                         <div className="namePage">
-                            <h3>FUNDACION CENTRO MISIONERO EMPRESARIAL</h3>
-                            <p>Manos que Ayudan</p>
+                            <h3>FUNDACION CENTRO DE INFLUENCIA MISIONERO EMPRESARIAL</h3>
+                            <h4>MANOS QUE AYUDAN</h4>
                         </div>
                         <div onClick={mostrarLogoCompleto} className="resgistradoLogoFundaMostrar">
                             <img src={logoFundacion} alt="logoFundacion" />
@@ -149,12 +154,54 @@ export default function DonacionFormu() {
                                     <option value="España" />
                                 </datalist>
                                 <input type="number" name="cantidad" placeholder="Cantidad (COP)" value={formData.cantidad} onChange={handleMontoChange} required />
-                                <p>Límite máximo: 1,000,000 COP</p>
-                                <div>
-                                    <input type="checkbox" id="terms" checked={termsAccepted} onChange={(e) => setTermsAccepted(e.target.checked)} required />
-                                    <label htmlFor="terms" className="TerminosCondicionAcepto">Acepto los términos y condiciones</label>
+                                <p className="LimiteMaxDona">Límite máximo: 1,000,000 COP</p>
+                                <div className="terminosCOndicionesFormuDona">
+                                    <b>A Continuación Leer los Terminos y Condiciones Para Continuar</b>
+                                    <div>⬇</div>
+                                    <a href="#" style={{ color: "black", textDecorationLine: "underline", marginTop: "5%", marginBottom: "5%" }} onClick={leerTerminosCondiciones}>Terminos y Condiciones</a>
+                                    {aceptarTerminos && (
+                                        <>
+                                            <ol className="todosLosTerminos">
+                                                Términos y Condiciones de la Fundación Centro de Influencia Misionero Empresarial Manos que Ayudan
+
+
+                                                <li>
+                                                    . Donaciones
+                                                    - Al realizar una donación a nuestra fundación, estás contribuyendo directamente a apoyar a las comunidades más vulnerables. Todas las donaciones son voluntarias y no reembolsables.
+                                                    - Nos comprometemos a utilizar los fondos de manera transparente y eficiente, garantizando que lleguen a quienes más los necesitan.
+                                                </li>
+                                                <li>
+                                                    . Privacidad
+                                                    - Respetamos tu privacidad y nos comprometemos a proteger tus datos personales. Utilizaremos la información proporcionada únicamente con el propósito de procesar tu donación y mantenerte informado sobre nuestro trabajo.
+                                                </li>
+                                                <li>
+                                                    . Seguridad
+                                                    - Nuestra página web cuenta con medidas de seguridad para proteger tus datos durante el proceso de donación. Sin embargo, no podemos garantizar la seguridad absoluta en internet, por lo que te recomendamos tomar precauciones adicionales al realizar tu donación.
+                                                </li>
+                                                <li>
+                                                    . Responsabilidad
+                                                    - La Fundación Centro de Influencia Misionero Empresarial Manos que Ayudan no se hace responsable por el uso indebido de los fondos donados por terceros. Nos comprometemos a utilizar los recursos de manera responsable y transparente.
+                                                </li>
+                                                <li>
+                                                    . Cambios en los Términos y Condiciones
+                                                    - Nos reservamos el derecho de realizar cambios en estos términos y condiciones en cualquier momento, sin previo aviso. Te recomendamos revisar esta página periódicamente para estar al tanto de cualquier actualización.
+                                                </li>
+                                                <li>
+                                                    . Contacto
+                                                    - Si tienes alguna pregunta o inquietud sobre nuestros términos y condiciones, no dudes en ponerte en contacto con nosotros a través de nuestro formulario de contacto en la página web.
+                                                </li>
+                                                Al realizar una donación a la Fundación Centro de Influencia Misionero Empresarial Manos que Ayudan, aceptas automáticamente estos términos y condiciones. Agradecemos tu generosidad y apoyo a nuestra causa.
+
+                                                <p>¡Gracias por ser parte de nuestra misión de ayudar a quienes más lo necesitan!</p>
+                                            </ol>
+                                            <div>
+                                                <input type="checkbox" id="terms" checked={termsAccepted} onChange={(e) => setTermsAccepted(e.target.checked)} required />
+                                                <label htmlFor="terms" className="TerminosCondicionAcepto">Acepto los términos y condiciones</label>
+                                            </div>
+                                        </>
+                                    )}
                                 </div>
-                                <button type="submit" disabled={!termsAccepted || formData.cantidad > 1000000}>Enviar</button>
+                                <button type="submit" style={{ color: "black" }} disabled={!termsAccepted || formData.cantidad > 1000000}>Enviar</button>
                             </form>
                         </div>
                     </div>
@@ -162,14 +209,11 @@ export default function DonacionFormu() {
                         <div className="popup">
                             <div className="popupContent">
                                 <FontAwesomeIcon onClick={() => setShowPopup(false)} className="popupCloseIcon" icon={faXmark} />
-                                <h4>Mande al siguiente número de cuenta la cantidad especificada:</h4>
-                                <b>52400010832</b>
-                                <p>Tenga cuidado de no enviar un número de más. El administrador no podrá regresar el dinero en caso de error.</p>
-                                <div>
-                                    <input type="checkbox" id="confirm" checked={confirmAccepted} onChange={(e) => setConfirmAccepted(e.target.checked)} />
-                                    <label className="entiendoAceptoTrans" htmlFor="confirm">He entendido y acepto</label>
-                                </div>
-                                <button className="btnAceptar" onClick={handlePopupAccept} disabled={!confirmAccepted}>Aceptar</button>
+                                <h4>Llamanos Primero al siguiente numero Para otorgarte el permiso necesario para que nos consignes:</h4>
+                                <b>+57 3104192453</b>
+                                <p>Esperamos Tu llamada Anciosamente {nombreDonante} ..</p>
+
+                                <button className="btnAceptar" onClick={handlePopupAccept} disabled={confirmAccepted} >Aceptar</button>
                             </div>
                         </div>
                     )}

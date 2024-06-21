@@ -139,8 +139,8 @@ export default function ZonadePublicacion() {
                     <div className="contentUsuarioRegistradoMostrarServicio">
                         <header className="encabezado">
                             <div className="namePage">
-                                <h3>FUNDACION CENTRO MISIONERO EMPRESARIAL</h3>
-                                <p>Manos que Ayudan</p>
+                            <h3>FUNDACION CENTRO DE INFLUENCIA MISIONERO EMPRESARIAL</h3>
+                            <h4>MANOS QUE AYUDAN</h4>
                             </div>
                             <div onClick={mostrarLogoCompleto} className="resgistradoLogoFundaMostrar">
                                 <img src={logoFundacion} alt="Logo Fundación" />

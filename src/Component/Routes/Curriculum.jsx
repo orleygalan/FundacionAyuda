@@ -23,7 +23,7 @@ export default function Curriculum() {
     const [commentSent, setCommentSent] = useState(false);
     const [popUpBasuraPDF, setPopUpBasuraPDF] = useState(null);
 
-    const ID_ADMIN = ['UQxvX9IejVW8OOjF2KMek9Jti7M2', '7WIvYvqLUMVLYhkw0CBZaXvDH012'];
+    const ID_ADMIN = ['UQxvX9IejVW8OOjF2KMek9Jti7M2', '7WIvYvqLUMVLYhkw0CBZaXvDH012', 'WsbosRG1AbR29dj3zPjlQ1HDEtG2'];
     
     //Manejar las Estado de logeo de los usuarios
     useEffect(() => {
@@ -138,8 +138,8 @@ export default function Curriculum() {
                 <div>
                     <header className="encabezado">
                         <div className="namePage">
-                            <h3>FUNDACION CENTRO MISIONERO EMPRESARIAL</h3>
-                            <p>Manos que Ayudan</p>
+                        <h3>FUNDACION CENTRO DE INFLUENCIA MISIONERO EMPRESARIAL</h3>
+                        <h4>MANOS QUE AYUDAN</h4>
                         </div>
                         <div onClick={mostrarLogoCompleto} className="resgistradoLogoFundaMostrar">
                             <img src={logoFundacion} alt="Logo Fundacion" />
