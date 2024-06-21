@@ -31,16 +31,16 @@ export default function RevisionUsuario() {
         setImgLogoMostrarCompleto(false);
     };
 
-    const handleClicUnete = () =>{
+    const handleClicUnete = () => {
         uneteNosotros('/mainHomen');
     }
-    const handleClickInformacionFunda = () =>{
+    const handleClickInformacionFunda = () => {
         masInformacion('/informacioFundacion')
     }
-    
+
     const uneteNosotros = useNavigate();
     const masInformacion = useNavigate();
-    
+
     return (
         <div className='mainContent'>
             <header className="encabezado">
@@ -68,9 +68,12 @@ export default function RevisionUsuario() {
                         <h1>Transformando Vidas a Través de la Gestión Social  Comunitaria</h1>
                         <p >La Fundación Centro de Influencia Misionero Empresarial Manos que Ayudan se dedica a brindar apoyo y oportunidades de crear espacios recreativos a la familia en las arias físicas,  mental y espiritual.</p>
                         <div className="btnsInfor">
-                        <button className="btnUno" onClick={handleClickInformacionFunda} >Más Información</button>
-                           {logedIn ? (<></>):( <button className="btnDos" onClick={handleClicUnete}>Unete a Nosotros</button>)}
+                            <button className="btnUno" onClick={handleClickInformacionFunda} >Más Información</button>
+                            {logedIn ? (<></>) : (<button className="btnDos" onClick={handleClicUnete}>Unete a Nosotros</button>)}
                         </div>
+                    </div>
+                    <div className="complementImageIcon">
+                        <img src={logoFundacion} alt="" />
                     </div>
                 </div>
                 <div className="forma2">
@@ -189,9 +192,7 @@ export default function RevisionUsuario() {
                 </div>
                 <div className="forma5">
                     <b> Fundación Centro de Influencia Misionero Empresarial Manos que Ayudan </b>
-                    {/* <div className="PoliticaSercicio"> */}
-                        <b>Te Brindamos la Mano</b>
-                    {/* </div> */}
+                    <b>Te Brindamos la Mano</b>
                 </div>
             </div>
         </div>
