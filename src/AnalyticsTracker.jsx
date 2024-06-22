@@ -1,16 +1,16 @@
+import { getAnalytics, logEvent } from 'firebase/analytics';
 import { useEffect } from 'react';
-import { useLocation } from 'react-router-dom';
-import { logEvent } from 'firebase/analytics';
-import { analytics } from '../configSDK/SDK';
+import { useLocation } from 'react-router';
 
 const AnalyticsTracker = () => {
   const location = useLocation();
 
   useEffect(() => {
-    logEvent(analytics, 'page_view', {
+    logEvent(getAnalytics, 'page_view', {
       page_path: location.pathname,
       page_location: window.location.href,
-      page_title: document.title
+      page_title: document.title,
+      timestamp: new Date().toISOString() 
     });
   }, [location]);
 
