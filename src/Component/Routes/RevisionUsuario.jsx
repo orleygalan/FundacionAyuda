@@ -72,9 +72,6 @@ export default function RevisionUsuario() {
                             {logedIn ? (<></>) : (<button className="btnDos" onClick={handleClicUnete}>Unete a Nosotros</button>)}
                         </div>
                     </div>
-                    <div className="complementImageIcon">
-                        <img src={logoFundacion} alt="" />
-                    </div>
                 </div>
                 <div className="forma2">
                     <div className="forma2Sector1">

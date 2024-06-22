@@ -17,17 +17,6 @@
 .mainContent {
   overflow-y: hidden;
 }
-.complementImageIcon{
-  width: 50vh;
-  position: absolute;
-  top: 30vh;
-  right: 8%;
-  opacity: 0.4;
-}
-.complementImageIcon img{
-  width: 100%;
-  border-radius: 100vh;
-}
 .resgistradoLogoFundaMostrar img {
   width: 5%;
   height: auto;
@@ -1897,12 +1886,6 @@
     width: 100%;
     height: auto;
   }
-  .complementImageIcon{
-    width: 35vh;
-    opacity: 0.4;
-    top: 30vh;
-    right: 5%;
-  }
   .forma1Texto1 {
     position: relative;
     width: 100%;
@@ -2586,9 +2569,6 @@
   .barraChat{
     width: 100%;
   }
-  .complementImageIcon{
-    top: 38vh;
-  }
 }
 @media screen and (min-width: 351px) and (max-width: 410px) {
   .navegacionUsuarioAdm {
@@ -2609,9 +2589,6 @@
   .barraChat{
     width: 100%;
   }
-  .complementImageIcon{
-    top: 33%;
-  }
 }
 @media screen and (min-width: 410px) and (max-width: 460px) {
   .SubirPDFMOstrar button {
@@ -2619,8 +2596,5 @@
   }
   .barraChat{
     width: 100%;
-  }
-  .complementImageIcon{
-    top: 27vh;
   }
 }
