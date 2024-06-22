@@ -1,6 +1,6 @@
-import { logEvent } from 'firebase/analytics';
 import { useEffect } from 'react';
 import { useLocation } from 'react-router';
+import { logEvent } from 'firebase/analytics';
 import { analytics } from './Component/confgSDK/SDK';
 
 const AnalyticsTracker = () => {

@@ -194,7 +194,7 @@ export default function Chat() {
                                             <img src={logoFundacion} alt="Logo Fundación" />
                                         </div>
                                     )}
-                                    <h5 className="nameClienteHablar">{ADMIN_ID.includes(userId) ? selectedChat.userName : "Manos que Ayudan"}</h5>
+                                    <h5 className="nameClienteHablar">{ADMIN_ID.includes(userId) ? selectedChat.userName : "Fundación Centro de Influencia Misionero Empresarial Manos que Ayudan"}</h5>
                                 </div>
                                 <div className="clienteReflejadoEnScroll">
                                     <div className="scrollChatearCoversation">
