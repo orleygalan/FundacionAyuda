@@ -10,6 +10,7 @@ import Curriculum from './Component/Routes/Curriculum'
 import RevisionUsuario from './Component/Routes/RevisionUsuario';
 import DonacionFormu from './Component/Routes/DonacionFormu';
 import AnuncioBiblicos from './Component/Routes/AnuncioBiblicos';
+import AnalyticsTracker from './AnalyticsTracker';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
     <div className='mainContent'>
       <BrowserRouter>
         <MenuBrowserRouter />
+        <AnalyticsTracker />
         <Routes>
           <Route path='/' element={<RevisionUsuario /> } />
           <Route path='/mainHomen' element={<MainHomen />} />
@@ -26,7 +28,7 @@ function App() {
           <Route path='/informacioFundacion' element={<InformacioFundacion />} />
           <Route path='/zonadePublicacion' element={<ZonadePublicacion />} />
           <Route path='/galeria' element={<Galeria />} />
-          <Route path='/chat' element={<Chat />} />
+          <Route path='/chat' element={<Chat />} />   
           <Route path='/curriculum' element={<Curriculum />} />
           <Route path='/Donacion' element={ <DonacionFormu /> } />
         </Routes>

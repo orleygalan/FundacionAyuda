@@ -11,7 +11,8 @@ const firebaseConfig = {
   projectId: "fundacion-ayuda",
   storageBucket: "fundacion-ayuda.appspot.com",
   messagingSenderId: "470634383923",
-  appId: "1:470634383923:web:16e00de5c229cbe43df146"
+  appId: "1:470634383923:web:16e00de5c229cbe43df146",
+  measurementId: "G-ZDZ5L8XDGT"
 };
 
 
