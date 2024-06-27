@@ -41,6 +41,9 @@ export default function RevisionUsuario() {
     const uneteNosotros = useNavigate();
     const masInformacion = useNavigate();
 
+
+    
+
     return (
         <div className='mainContent'>
             <header className="encabezado">
